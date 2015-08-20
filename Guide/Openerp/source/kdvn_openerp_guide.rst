@@ -1,7 +1,7 @@
 
 General Information about new system
 ====================================
-What is Open ERP
+**What is Open ERP**
 ----------------
 	ERP definition
 		ERP: Enterprise Resources Planning
@@ -27,7 +27,7 @@ What is Open ERP
 		Purchase Orders (to suppliers)
 		Payment to Suppliers
 
-Log in
+**Log in**
 ------
 	Please use your provided username and password to log into the system. 
 	For Hanoi Head Office:
@@ -56,7 +56,7 @@ Log in
 	1.	The system OpenERP of Kinden Vietnam Co., Ltd. contains very important information of company’s business. Therefore, for security purpose, users can only access to the system by company’s registered computers via company’s LAN/Wifi . Users have responsibilities to keep TOP SECRET of their own login passwords to avoid information leak out to any third parties.  
 
 	2. 	The system requires user to re-login if there are no action after every one hour.
-Dashboard 
+**Dashboard**
 ---------
 	After log into the system, you will see a dashboard customized for you
 
@@ -80,7 +80,7 @@ Dashboard
 	
 	.. image:: kdvnstatic/IMG_lg_dashboard.png
 	
-The menu bars
+**The menu bars**
 -------------
 	
 	.. image:: kdvnstatic/IMG_maenu_bar.png
@@ -106,19 +106,13 @@ Each user can have different quick links and this can customize too, however, at
 
 As a viewer, Project manager / Site manager can see all information of above seven categories related to the projects that he is in charge.
 
-
- 
-
-Common features of data area
+**Common features of data area**
 ----------------------------
-Click each of link in the quick links bar will open a specific data areas. However, those data areas have some common features:
+	Click each of link in the quick links bar will open a specific data areas. However, those data areas have some common features:
 Tree view (List view)
 
 	.. image:: kdvnstatic/IMG_Tree_view.png
 Is the view of a list of data in a data area. This is the first screen you see when click a link in the quick links bar. This screen list all the inputted data by row for easy to search for a specific data  .
-
- 
-
 - The Search Area is for searching data, just click and start to type information need to be searched. The system will try to guest and recommend search value to choose. If you need to search in more detail or advanced search, click the small traingle button at the far right corner  . 
 
 .. image:: kdvnstatic/IMG_search.png
@@ -129,15 +123,9 @@ Is the view of a list of data in a data area. This is the first screen you see w
 + ACTIONS: for several other actions related to selected record(s).
 .. image:: kdvnstatic/IMG_Report.png
 
-
-
- 
-
-
 - To the upper right of the screen is the View mode switches in which there are several ways to view the data: List, Form, Graph, Calendar, Gantt view. User can click Form to change viewing the data in Form view.
 
  .. image:: kdvnstatic/IMG_List_view.png
-
 
 - If you want to display other records you can search for them or navigate through the whole list using the Previous, Next arrows. The list in the screen shows only the first 80 records.The actual number can be switched by clicking on the number and selecting one of the other limits, but you can’t select any other limit  .
 .. image:: kdvnstatic/IMG_Record_id.png
@@ -150,39 +138,34 @@ Is the view of a list of data in a data area. This is the first screen you see w
 Form view (Data in detail  )
 ****************************
 
-User can access to the detail data of a specific item by choosing the item from the list (List view) as mentioned above. Please see the below sample of a form view:
+	User can access to the detail data of a specific item by choosing the item from the list (List view) as mentioned above. Please see the below sample of a form view:
 
 	 .. image:: kdvnstatic/IMG_view_form.png
  
-
-
-
 - On the upper top side of the screen, there are some icons that viewer can click to see the detail of attachments, data created/modified log info.
  	.. image:: kdvnstatic/IMG_create.png
 
-
-
-Buttons and Status Bar  
+**Buttons and Status Bar**
 **********************
-In the form view of almost sections, at the top of the form, there is a  header bar including 2 parts: left part and right part.
+	In the form view of almost sections, at the top of the form, there is a  header bar including 2 parts: left part and right part.
 
-- The left part: consist buttons relating to the object - are used by input users to change the status of the object/document
+	- The left part: consist buttons relating to the object - are used by input users to change the status of the object/document
 
-- The right part: is the status bar indicating available status to the object/document. The current status is the green one.
-Navigation Bar
+	- The right part: is the status bar indicating available status to the object/document. The current status is the green one.
+**Navigation Bar**
 **************
 
-In the top left of the screen (Beside the KINDEN VIETNAM logo), there is Navigation Bar where user can easily move around related objects by select the link.
+	In the top left of the screen (Beside the KINDEN VIETNAM logo), there is Navigation Bar where user can easily move around related objects by select the link.
 
 .. image:: kdvnstatic/IMG_navigation_bar.png
 
 
 How to search and view your needed information
 ==============================================
-Quotation
+**Quotation**
 ---------
 
-When you choose  “Quotation” (by click Project & Contract, then Quotation), the follow screen will appear.
+	When you choose  “Quotation” (by click Project & Contract, then Quotation), the follow screen will appear.
 Quotation – List view screen
 
 
@@ -191,10 +174,7 @@ Quotation – List view screen
 
 In the Search Area, user can find the information about the needed quotation or other related information such as Quotation number, Client, Job number, Contract number, … By click the dropdown button, user can filter/group data by many criteria.
 
-
 Currently, there is one report in Quotation section, user can select a quotation, then choose Report/Form to print the report: Quotation List.
-
-
 
 .. image:: kdvnstatic/1_IMG_qoutation_tree_view.png
 
@@ -206,92 +186,81 @@ Click on Report/Form and select your type file nedd to print:
 
 
 The related actions (quick links) are:
-●	Contract to client: a quick link to related contract (to client) of that quotation
-●	 Payment from client: a quick link to above contract’s payment description
-●	Job: a quick link to the job that the quotation belongs to.
+	Contract to client: a quick link to related contract (to client) of that quotation
+	Payment from client: a quick link to above contract’s payment description
+	Job: a quick link to the job that the quotation belongs to.
 
 
 .. image:: kdvnstatic/ 1_IMG_qoutation_action.png
 
 After displaying the needed quotation, user can see the detail information of that quotation(s) by clicking on the quotation line or clicking Form on the View mode switches. The screen will change to display the form view of that quotation(s). 
 
-
 Quotation - Form view screen
-
-
-
 .. image:: kdvnstatic/ 1_IMG_qoutation_form_view.png
 
 
 The Form view of a quotation includes the below content:
-●	Quotation No./ Registration date/ status
-●	Client information
-●	Quotation information includes owner, project name & location, persons in charge; submit price/date
-●	Job info includes job numbers,approved amounts, working budget information
-●	Attachment status of the related document: quotation, quotation budget, working budget. 
+	Quotation No./ Registration date/ status
+	Client information
+	Quotation information includes owner, project name & location, persons in charge; submit price/date
+	Job info includes job numbers,approved amounts, working budget information
+	Attachment status of the related document: quotation, quotation budget, working budget. 
 
- 
+**Job**
+-------
 
-Job
----
-
-When you choose  “Job” (by click Project & Contract, then Job), the follow screen will appear.
+	When you choose  “Job” (by click Project & Contract, then Job), the follow screen will appear.
 
 Job- List view screen:
 
 
 .. image:: kdvnstatic/ Img_jobt.png
 
-
 You can find the information about your needed job(s) by typing the Job number, or other related information to narrow the selection such as project name, status, owner name, client name, etc.
 
 In Job task, the list of possible Reports are:
-●	Balance sheet (pdf.)
-●	Balance sheet (xls)
-●	Balance sheet detail (pdf)
-●	Balance sheet detail (xls)
-●	Combine Balance sheet (pdf)
-●	Job list (pdf)
-●	Job and contract list (pdf)
-●	Work in progress (pdf)
-●	Work in progress (xls)
-●	Job and quotation list (pdf) 
-User can tick off the filtered job(s) to make above reports.  
-
-
+Balance sheet (pdf.)
+	Balance sheet (xls)
+	Balance sheet detail (pdf)
+	Balance sheet detail (xls)
+	Combine Balance sheet (pdf)
+	Job list (pdf)
+	Job and contract list (pdf)
+	Work in progress (pdf)
+	Work in progress (xls)
+	Job and quotation list (pdf) 
+User can tick off the filtered job(s) to make above reports. 
 .. image:: kdvnstatic/ IMG_job_report_view.png
 
 The related actions (quick links) are:
-●	Contract : a quick link to the contract (to client)  related to the chosen job.
-●	Other expense: a quick link to the expenses related to the chosen job
-●	Payment from client: a quick link to information about payment from client for the contract(s) related to the chosen job.
-●	Payment to supplier: a quick link to information about payment to suppliers for material/subcon/expense related to the chosen job.
-●	Purchase order: a quick link to purchase order for material/subcon of the chosen job
-●	Quotation: a quick link to the quotation(s) related to the chosen job
+	Contract : a quick link to the contract (to client)  related to the chosen job.
+	Other expense: a quick link to the expenses related to the chosen job
+	Payment from client: a quick link to information about payment from client for the contract(s) related to the chosen job.
+	Payment to supplier: a quick link to information about payment to suppliers for material/subcon/expense related to the chosen job.
+	Purchase order: a quick link to purchase order for material/subcon of the chosen job
+	Quotation: a quick link to the quotation(s) related to the chosen job
 
 
 .. image:: kdvnstatic/ IMG_job_tree_view.png
-
-
 The possible attachments are:
-●	Working Budgets
+	● Working Budgets
 After displaying the needed job(s), user can see the detail information of that job(s) by clicking on the job line or clicking Form on the View mode switches. The screen will change to display the form view of that job(s  ). 
  
 .. image:: kdvnstatic/ IMG_job_form_view.png
 
 The Form view of a job includes the below content:
-●	Job No.
-●	Job Name
-●	Job type
-●	Job status
-●	Description (of work)
-●	Owner Name/ Address
-●	Client Name/ Address
-●	Person in charge (PM/ GPM, SM, ASM)
-●	Period (registration date, start date, completion date, close date)
-●	Job amount (total approved amounts of approved quotations)
-●	Job exchange rate
-●	Information tabs include: 
+	● Job No.
+	● Job Name
+	● Job type
+	● Job status
+	● Description (of work)
+	● Owner Name/ Address
+	● Client Name/ Address
+	● Person in charge (PM/ GPM, SM, ASM)
+	● Period (registration date, start date, completion date, close date)
+	● Job amount (total approved amounts of approved quotations)
+	● Job exchange rate
+	● Information tabs include: 
 + Job financial info.: Summary of contracted, budgeted, cost, paid, claimed & received amounts in VND as well as the equivalent amounts in USD are displayed in Job Financial Info. tab
 
 Job - Form view screen
@@ -309,22 +278,14 @@ In Budget tab, the latest working budget of the chosen job  is displayed with bu
 
 To the lower of the screen is the Budget History which displays the summary of total budget amount/ material/subcontractor/site expense/ indirect expense/business profit amounts and the status of all working budgets that have been made for the chosen job. 
 The hard copies of these working budgets are attached to the database and can be seen at the ATTACHMENTS. 
-
-
-
-
-	
 	+ Quotation & Contract tab  :
 
 .. image:: kdvnstatic/ 2_IMG_contract_quotation.png
-
-
-
 The quotations & contracts related to the chosen job are displayed in Quotation & contract tab.
 User can click on a quotation /contract line to quickly open the Form view of that quotation/contract to check further information.
 
 
-Contract to client
+**Contract to client**
 ------------------
 
 When you choose  “Contract” (by click Project & Contract, then Contract), the follow screen will appear.
@@ -332,9 +293,6 @@ When you choose  “Contract” (by click Project & Contract, then Contract), th
 User can find the information about contract (to client) by typing the contract number, or narrow the selection by filtering from the other related information such as job number, project name, description, owner name, client name, etc  .
 
 .. image:: kdvnstatic/ 2_IMG_contract_tree_view.png
-
-
-
 User can also access to a specific contract to client from Quotation – Form view interface of the related quotation(s) by clicking on the switches to form view on the top right icon:
 
 .. image:: kdvnstatic/ 2_IMG_contract_form_view.png
@@ -343,18 +301,18 @@ User can also access to a specific contract to client from Quotation – Form vi
 After displaying the needed contract, user can see the detail information of that contract by clicking on the contract line or clicking Form on the View mode switches. The screen will change to display the form view of that contract.
  
 The Form view of a contract includes the below content:
--       Contract number
--       Owner Name/Address
--       Client Name/Address
--       Project Name
--       Project Location
--       Description (of work)
--       Ref No. (Client’s contract/PO No.)
--       Date of registration/start/completion/close
--       Contract status (completed/uncompleted/ outstanding)
--       Contract amount
--       Payment term
--      Exchange rate (actual ex. Rate for contract in VND or interbank rate of the registration date for contract in USD)
+	- Contract number
+	- Owner Name/Address
+	- Client Name/Address
+	- Project Name
+	- Project Location
+	- Description (of work)
+	- Ref No. (Client’s contract/PO No.)
+	- Date of registration/start/completion/close
+	- Contract status (completed/uncompleted/ outstanding)
+	- Contract amount
+	- Payment term
+	- Exchange rate (actual ex. Rate for contract in VND or interbank rate of the registration date for contract in USD)
 
 .. image:: kdvnstatic/ 2_IMG_contract_cpl.png
 
@@ -408,18 +366,13 @@ The related actions (quick links) are:
 The possible attachment  is:
 -       Contract 
 
-
 .. image:: kdvnstatic/ 3_IMG_payment_client_action.png
-
-
-Payment from client
+**Payment from client**
 -------------------
  
 When you choose  “Payment from Client” (by click Project & Contract, then Payment from Client), the follow screen will appear.
 
 User can find the information about Request of payment & payment situation from client by typing the Request of Payment number (R.O.P. No.), or narrow the selection by filtering from the other related information such as contract number, job number, client name, owner name, etc  .
-
-
 
 .. image:: kdvnstatic/ 3_IMG_payment_client_tree.png
 
@@ -445,10 +398,7 @@ The Form view of a Request of payment includes the below content:
 
 + VAT invoice & Payment: display VAT invoice issuing information (for admin staff only) and detail of payment from client: Payment date, currency of R.O.P.,amount, client’s paid currency, client’s paid amount (VND), exchange rate, and Bank (in case client pay in USD, the interbank ex.rate on the payment date shall be applied to calculate).  
 
-
 .. image:: kdvnstatic/3_IMG_payment_client_vat.png
-
-
 In Report/Form, user can see the possible Reports:
 -       List of R.O.P.  (pdf)
 -       List of receivable Items (xls)
@@ -462,19 +412,16 @@ The possible Attachments are:
 -   	Request of Payment
 -   	Progress Evaluation sheet
 -   	Certificate of Completion, etc.
+.. image:: kdvnstatic/3_IMG_payment_client_report.png
 
-
-
-.. image:: kdvnstatic/ 3_IMG_payment_client_report.png
-
- Purchase Order (for material & subcontract)
+ **Purchase Order (for material & subcontract)**
  -------------------------------------------
 
 When you choose  “Purchase Order” (by click PO & Expense, then Purchase Order), the follow screen will appear.
 User can find the information about material/subcon orders by typing the Purchase Order number (PO. No.), or narrow the selection by filtering from the other related information such as Job No., PO. price, budget code, supplier name, status of order, etc.
 
 
-..image:: kdvnstatic/5_IMG_po.png
+.. image:: kdvnstatic/5_IMG_po.png
 
 After displaying the needed Purchase Order, user can see the detail information of that .. 
 
@@ -501,24 +448,14 @@ The Form view of a Purchase Order includes the below content:
 -       Information tabs includes: Purchase Order, Request of payment, Contract to supplier:
 +      	PO Info tab: display information about supplier name/address, scope of work (material name), payment term, currency, ex.rate (effect only for contracts in foreign currency), PO detail (breakdown of quotation & price), and status of PO:
 §  There are six (5) kinds of P.O. status: Draft, Waiting for R.O.A, Waiting for Delivery, Waiting for Payment and P.O. Completed. Please see the Appendix I for the detail description of these status.   
-
-
 .. image:: kdvnstatic/5_IMG_po_info.png
-
-
-
-
 +      	Payment & VAT Invoices: display the detail of request of payment from supplier for the chosen PO. : Internal payment number, amount & currency, status of payment document .
-§  Status of payment document: There are nine (9) kinds of payment status: Draft, Procurement checking, B.C. checking, B.C. passed, PM checking, BOD checking, BOD approved, Paid, Rejected. Please see the Appendix II  for the detail description of these status.   
-
-
+§  Status of payment document: There are nine (9) kinds of payment status: Draft, Procurement checking, B.C. checking, B.C. passed, PM checking, BOD checking, BOD approved, Paid, Rejected. Please see the Appendix II  for the detail description of these status. 
 .. image:: kdvnstatic/5_IMG_po_vat_view.png
 
 + Contract to Supplier (for adminstrator only): this tab displays the PO process which includes date of each procedure (scanned, submitted, sent, received). These information are recorded for person in charge to control the PO.
 
-
 .. image:: kdvnstatic/5_IMG_po_contract_view.png
-
 
 The possible reports/ forms here are:
 - Inv. Check List - State 01 (pdf)
@@ -539,9 +476,7 @@ The possible reports/ forms here are:
 
 
 .. image:: kdvnstatic/5_IMG_po_report_view.png
-
-
-Supplier Payment
+**Supplier Payment**
 ----------------
 
 When you choose  “Supplier Payment” (by click PO & Expense, then Supplier Payment), the follow screen will appear.
@@ -585,7 +520,7 @@ The Form view of a Payment document to supplier includes the below content:
 .. image:: kdvnstatic/ 4_IMG_ex_vat_payment.png
 
 
-Other expense
+**Other expense**
 -------------
 
 The expenses related to projects (Budget code 4000 ~ 7999) are inputed in “Other expense”  in order to separate with material/labour orders.

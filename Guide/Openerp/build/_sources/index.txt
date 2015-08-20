@@ -9,11 +9,9 @@ Welcome to kdvn's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
-
-
-Indices and tables
+kdvn_openerp_guide.rst and tables
 ==================
 
 * :ref:`genindex`
