@@ -28,7 +28,7 @@ General Information about new system
 		Payment to Suppliers
 
 **Log in**
-------
+----------
 	Please use your provided username and password to log into the system. 
 	For Hanoi Head Office:
 	Access link: http://openerp.kinden.com.vn:8069/
@@ -191,12 +191,13 @@ The related actions (quick links) are:
 	Job: a quick link to the job that the quotation belongs to.
 
 
-.. image:: kdvnstatic/ 1_IMG_qoutation_action.png
+.. image:: kdvnstatic/1_IMG_qoutation_action.png
 
 After displaying the needed quotation, user can see the detail information of that quotation(s) by clicking on the quotation line or clicking Form on the View mode switches. The screen will change to display the form view of that quotation(s). 
 
 Quotation - Form view screen
-.. image:: kdvnstatic/ 1_IMG_qoutation_form_view.png
+
+.. image:: kdvnstatic/1_IMG_qoutation.png
 
 
 The Form view of a quotation includes the below content:
@@ -230,6 +231,7 @@ Balance sheet (pdf.)
 	Work in progress (xls)
 	Job and quotation list (pdf) 
 User can tick off the filtered job(s) to make above reports. 
+
 .. image:: kdvnstatic/ IMG_job_report_view.png
 
 The related actions (quick links) are:
@@ -356,6 +358,7 @@ The possible Forms are:
 
 -       Confirmation of receipt work (pdf)
 -       Progress (Progress Evaluation sheet) 
+
 .. image:: kdvnstatic/ 3_IMG_payment_client_att.png
 
 
@@ -393,6 +396,7 @@ The Form view of a Request of payment includes the below content:
 -       Information tabs includes: Claim Details, VAT Invoice & Payment:
 
 + Claim Details: display the payment condition of that R.O.P., contract amount, the R.O.P. currency, total issued R.O.P amount / VAT amount previously, proportional amount of Electrical/Mechanical work in that R.O.P. amount and the R.O.P. amount  .
+
 .. image:: kdvnstatic/3_IMG_payment_client_claim.png
 
 
@@ -412,6 +416,7 @@ The possible Attachments are:
 -   	Request of Payment
 -   	Progress Evaluation sheet
 -   	Certificate of Completion, etc.
+
 .. image:: kdvnstatic/3_IMG_payment_client_report.png
 
  **Purchase Order (for material & subcontract)**
@@ -447,10 +452,12 @@ The Form view of a Purchase Order includes the below content:
 
 -       Information tabs includes: Purchase Order, Request of payment, Contract to supplier:
 +      	PO Info tab: display information about supplier name/address, scope of work (material name), payment term, currency, ex.rate (effect only for contracts in foreign currency), PO detail (breakdown of quotation & price), and status of PO:
-§  There are six (5) kinds of P.O. status: Draft, Waiting for R.O.A, Waiting for Delivery, Waiting for Payment and P.O. Completed. Please see the Appendix I for the detail description of these status.   
+§  There are six (5) kinds of P.O. status: Draft, Waiting for R.O.A, Waiting for Delivery, Waiting for Payment and P.O. Completed. Please see the Appendix I for the detail description of these status.  
+
 .. image:: kdvnstatic/5_IMG_po_info.png
 +      	Payment & VAT Invoices: display the detail of request of payment from supplier for the chosen PO. : Internal payment number, amount & currency, status of payment document .
 §  Status of payment document: There are nine (9) kinds of payment status: Draft, Procurement checking, B.C. checking, B.C. passed, PM checking, BOD checking, BOD approved, Paid, Rejected. Please see the Appendix II  for the detail description of these status. 
+
 .. image:: kdvnstatic/5_IMG_po_vat_view.png
 
 + Contract to Supplier (for adminstrator only): this tab displays the PO process which includes date of each procedure (scanned, submitted, sent, received). These information are recorded for person in charge to control the PO.
