@@ -48,6 +48,7 @@ Log in
 	After clicking to “Preferences”, the following screen of “Preferences” will appear 
 
 	.. image:: kdvnstatic/IMG_change_pass.png
+
 	Please input your new password in to “Password” filed, then click “Change Password”. After saving the new password, you are required to logout and re-login by the new password to confirm that it has worked properly. 
 
 	Note: 
@@ -67,7 +68,8 @@ Dashboard
 
 	After clicking to “Preferences”, the following screen of “Preferences” will appear 
 
-	3.img_change_pass
+	.. image:: kdvnstatic/img_change_pass.png
+
 	Please input your new password in to “Password” filed, then click “Change Password”. After saving the new password, you are required to logout and re-login by the new password to confirm that it has worked properly. 
 
 	Note: 
@@ -169,13 +171,10 @@ In the form view of almost sections, at the top of the form, there is a  header 
 - The right part: is the status bar indicating available status to the object/document. The current status is the green one.
 Navigation Bar
 **************
-In the top left of the screen (Beside the KINDEN VIETNAM logo), there is Navigation Bar where user can easily move around related objects by select the link  .
+
+In the top left of the screen (Beside the KINDEN VIETNAM logo), there is Navigation Bar where user can easily move around related objects by select the link.
 
 .. image:: kdvnstatic/IMG_navigation_bar.png
-
-  
-
-
 
 
 How to search and view your needed information
@@ -193,12 +192,11 @@ Quotation – List view screen
 In the Search Area, user can find the information about the needed quotation or other related information such as Quotation number, Client, Job number, Contract number, … By click the dropdown button, user can filter/group data by many criteria.
 
 
-Currently, there is one report in Quotation section, user can select a quotation, then choose Report/Form to print the report: Quotation List
-
-.  
+Currently, there is one report in Quotation section, user can select a quotation, then choose Report/Form to print the report: Quotation List.
 
 
-.. image:: kdvnstatic/ 1_IMG_qoutation_tree_view.png
+
+.. image:: kdvnstatic/1_IMG_qoutation_tree_view.png
 
 
 Click on Report/Form and select your type file nedd to print:
@@ -278,14 +276,8 @@ The related actions (quick links) are:
 The possible attachments are:
 ●	Working Budgets
 After displaying the needed job(s), user can see the detail information of that job(s) by clicking on the job line or clicking Form on the View mode switches. The screen will change to display the form view of that job(s  ). 
-
-
-
-
  
 .. image:: kdvnstatic/ IMG_job_form_view.png
-
-
 
 The Form view of a job includes the below content:
 ●	Job No.
@@ -306,8 +298,6 @@ Job - Form view screen
 
 
 .. image:: kdvnstatic/ IMG_job_form_view.png
-
-
 
 	+	Budget tab: Detail of working budget of the job
 
@@ -626,7 +616,7 @@ Draft: The expense has not been submitted yet
 Waiting for payment:The expense has been submitted and waiting for payment
 Done: The expense has been paid.
 
-.. image:: kdvnstatic/ IMG_4_ex_wfp.png
+.. image:: kdvnstatic/IMG_4_ex_wfp.png
 
 
 + Request of payments tab: display the current procedure of that expense (State) as well as the VAT invoice issued for the payment.
@@ -640,10 +630,24 @@ The possible quick link here is:
 -       Payment to Supplier  
 
 
-
-
-
-
 Appendices
 ==========
+ 
+APPENDIX I. - PURCHASE ORDER STATUS –HANOI
 
+.. image:: kdvnstatic/IMG_Appnedices.jpg
+
+APPENDIX II. - STATUS OF PAYMENT FOR MATERIAL & SUBCONTRACT  (DOCUMENT CIRCULATION) - HANOI
+Procurement       BC check        PM check	    BOD check    ACC
+Nine kinds of payment document status:
+1/ Draft
+2/ Procurement checking	
+3/ BC checking
+4/ B.C passed
+5/ PM checking
+6/ BOD checking
+7/ BOD approved
+8/ Paid
+9/ Reject
+
+.. image:: kdvnstatic/IMG_AP_state.jpg

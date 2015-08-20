@@ -616,7 +616,7 @@ Draft: The expense has not been submitted yet
 Waiting for payment:The expense has been submitted and waiting for payment
 Done: The expense has been paid.
 
-.. image:: kdvnstatic/ IMG_4_ex_wfp.png
+.. image:: kdvnstatic/IMG_4_ex_wfp.png
 
 
 + Request of payments tab: display the current procedure of that expense (State) as well as the VAT invoice issued for the payment.
@@ -630,10 +630,24 @@ The possible quick link here is:
 -       Payment to Supplier  
 
 
-
-
-
-
 Appendices
 ==========
+ 
+APPENDIX I. - PURCHASE ORDER STATUS –HANOI
 
+.. image:: kdvnstatic/IMG_Appnedices.jpg
+
+APPENDIX II. - STATUS OF PAYMENT FOR MATERIAL & SUBCONTRACT  (DOCUMENT CIRCULATION) - HANOI
+Procurement       BC check        PM check	    BOD check    ACC
+Nine kinds of payment document status:
+1/ Draft
+2/ Procurement checking	
+3/ BC checking
+4/ B.C passed
+5/ PM checking
+6/ BOD checking
+7/ BOD approved
+8/ Paid
+9/ Reject
+
+.. image:: kdvnstatic/IMG_AP_state.jpg
