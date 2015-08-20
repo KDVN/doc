@@ -2,30 +2,30 @@
 General Information about new system
 ====================================
 **What is Open ERP**
-----------------
-	ERP definition
-		ERP: Enterprise Resources Planning
-	OpenERP 
-		Is an open source ERP solution
-		Minimize software license cost
-		Modules based solution makes ease of customizing and deployment 
-	OpenERP is provided with standard modules:
-		Sales management
-		Purchasing
-		Customer relation management
-		Project management
-		Warehouse management system
-		Manufacturing
-		Accounting
-		Point of sale
-		Asset management
-		Human resource management
-		KINDEN VIETNAM’s OpenERP currently can manage:	Quotations
-		Jobs (Budget control)
-		Contracts to clients
-		Invoicing to clients and Payment from clients
-		Purchase Orders (to suppliers)
-		Payment to Suppliers
+--------------------
+	- ERP definition
+		+ ERP: Enterprise Resources Planning
+	- OpenERP 
+		+ Is an open source ERP solution
+		+ Minimize software license cost
+		+ Modules based solution makes ease of customizing and deployment 
+	- OpenERP is provided with standard modules:
+		+ Sales management
+		+ Purchasing
+		+ Customer relation management
+		+ Project management
+		+ Warehouse management system
+		+ Manufacturing
+		+ Accounting
+		+ Point of sale
+		+ Asset management
+		+ Human resource management
+		+ KINDEN VIETNAM’s OpenERP currently can manage:	Quotations
+		+ Jobs (Budget control)
+		+ Contracts to clients
+		+ Invoicing to clients and Payment from clients
+		+ Purchase Orders (to suppliers)
+		+ Payment to Suppliers
 
 **Log in**
 ----------
@@ -41,7 +41,7 @@ General Information about new system
 
 	.. image:: kdvnstatic/IMG_login.png
 
-
+	.. image:: kdvnstatic/IMG_dashboard.png
 
 	You can change your password by clicking to “Preferences”
 
@@ -51,46 +51,32 @@ General Information about new system
 
 	Please input your new password in to “Password” filed, then click “Change Password”. After saving the new password, you are required to logout and re-login by the new password to confirm that it has worked properly. 
 
-	Note: 
-
-	1.	The system OpenERP of Kinden Vietnam Co., Ltd. contains very important information of company’s business. Therefore, for security purpose, users can only access to the system by company’s registered computers via company’s LAN/Wifi . Users have responsibilities to keep TOP SECRET of their own login passwords to avoid information leak out to any third parties.  
-
-	2. 	The system requires user to re-login if there are no action after every one hour.
-**Dashboard**
----------
-	After log into the system, you will see a dashboard customized for you
-
-	.. image:: kdvnstatic/IMG_dashboard.png
-
-
-
-	You can change your password by clicking to “Preferences”
-
-	After clicking to “Preferences”, the following screen of “Preferences” will appear 
-
-	.. image:: kdvnstatic/img_change_pass.png
-
 	Please input your new password in to “Password” filed, then click “Change Password”. After saving the new password, you are required to logout and re-login by the new password to confirm that it has worked properly. 
 
-	Note: 
+ Note: 
 
-	1.	The system OpenERP of Kinden Vietnam Co., Ltd. contains very important information of company’s business. Therefore, for security purpose, users can only access to the system by company’s registered computers via company’s LAN/Wifi . Users have responsibilities to keep TOP SECRET of their own login passwords to avoid information leak out to any third parties.  
+	1.    The system OpenERP of Kinden Vietnam Co., Ltd. contains very important information of company’s business. Therefore, for security purpose, users can only access to the system by company’s registered computers via company’s LAN/Wifi . Users have responsibilities to keep TOP SECRET of their own login passwords to avoid information leak out to any third parties.  
 
-	2. 	The system requires user to re-login if there are no action after every one hour.
-	
-	.. image:: kdvnstatic/IMG_lg_dashboard.png
+	2.     The system requires user to re-login if there are no action after every one hour.
+
+**Dashboard**
+-------------
+	After log into the system, you will see a dashboard customized for you
+
+	.. image:: kdvnstatic/IMG_dashboard_login
+
 	
 **The menu bars**
--------------
+-----------------
 	
 	.. image:: kdvnstatic/IMG_maenu_bar.png
 	In the top row and on the left of the screen, there are two menu bars where user can use to quickly access most of tasks
 	
-Project & Contract menu
+**Project & Contract menu**
 ***********************
 
 	.. image:: kdvnstatic/IMG_contract.png
-PO & Expense menu
+**PO & Expense menu**
 *****************
 	.. image:: kdvnstatic/IMG_expense.png
 
@@ -135,7 +121,7 @@ Is the view of a list of data in a data area. This is the first screen you see w
  .. image:: kdvnstatic/IMG_job.png
  
 
-Form view (Data in detail  )
+**Form view (Data in detail  )**
 ****************************
 
 	User can access to the detail data of a specific item by choosing the item from the list (List view) as mentioned above. Please see the below sample of a form view:
@@ -146,14 +132,14 @@ Form view (Data in detail  )
  	.. image:: kdvnstatic/IMG_create.png
 
 **Buttons and Status Bar**
-**********************
+**************************
 	In the form view of almost sections, at the top of the form, there is a  header bar including 2 parts: left part and right part.
 
 	- The left part: consist buttons relating to the object - are used by input users to change the status of the object/document
 
 	- The right part: is the status bar indicating available status to the object/document. The current status is the green one.
 **Navigation Bar**
-**************
+******************
 
 	In the top left of the screen (Beside the KINDEN VIETNAM logo), there is Navigation Bar where user can easily move around related objects by select the link.
 
@@ -163,7 +149,7 @@ Form view (Data in detail  )
 How to search and view your needed information
 ==============================================
 **Quotation**
----------
+-------------
 
 	When you choose  “Quotation” (by click Project & Contract, then Quotation), the follow screen will appear.
 Quotation – List view screen
@@ -251,19 +237,19 @@ After displaying the needed job(s), user can see the detail information of that 
 .. image:: kdvnstatic/ IMG_job_form_view.png
 
 The Form view of a job includes the below content:
-	● Job No.
-	● Job Name
-	● Job type
-	● Job status
-	● Description (of work)
-	● Owner Name/ Address
-	● Client Name/ Address
-	● Person in charge (PM/ GPM, SM, ASM)
-	● Period (registration date, start date, completion date, close date)
-	● Job amount (total approved amounts of approved quotations)
-	● Job exchange rate
-	● Information tabs include: 
-+ Job financial info.: Summary of contracted, budgeted, cost, paid, claimed & received amounts in VND as well as the equivalent amounts in USD are displayed in Job Financial Info. tab
+	- Job No.
+	- Job Name
+	- Job type
+	- Job status
+	- Description (of work)
+	- Owner Name/ Address
+	- Client Name/ Address
+	- Person in charge (PM/ GPM, SM, ASM)
+	- Period (registration date, start date, completion date, close date)
+	- Job amount (total approved amounts of approved quotations)
+	- Job exchange rate
+	- Information tabs include: 
+		+ Job financial info.: Summary of contracted, budgeted, cost, paid, claimed & received amounts in VND as well as the equivalent amounts in USD are displayed in Job Financial Info. ta
 
 Job - Form view screen
 
@@ -288,7 +274,7 @@ User can click on a quotation /contract line to quickly open the Form view of th
 
 
 **Contract to client**
-------------------
+----------------------
 
 When you choose  “Contract” (by click Project & Contract, then Contract), the follow screen will appear.
 
@@ -371,7 +357,7 @@ The possible attachment  is:
 
 .. image:: kdvnstatic/ 3_IMG_payment_client_action.png
 **Payment from client**
--------------------
+-----------------------
  
 When you choose  “Payment from Client” (by click Project & Contract, then Payment from Client), the follow screen will appear.
 
@@ -420,7 +406,7 @@ The possible Attachments are:
 .. image:: kdvnstatic/3_IMG_payment_client_report.png
 
  **Purchase Order (for material & subcontract)**
- -------------------------------------------
+ -----------------------------------------------
 
 When you choose  “Purchase Order” (by click PO & Expense, then Purchase Order), the follow screen will appear.
 User can find the information about material/subcon orders by typing the Purchase Order number (PO. No.), or narrow the selection by filtering from the other related information such as Job No., PO. price, budget code, supplier name, status of order, etc.
@@ -484,7 +470,7 @@ The possible reports/ forms here are:
 
 .. image:: kdvnstatic/5_IMG_po_report_view.png
 **Supplier Payment**
-----------------
+--------------------
 
 When you choose  “Supplier Payment” (by click PO & Expense, then Supplier Payment), the follow screen will appear.
 User can find the information about supplier payment by typing the Request of Payment No. (internal payment number), or narrow the selection by filtering from the other related information such as PO No., Job No., budget code, supplier name, status of R.O.P., etc.
@@ -528,7 +514,7 @@ The Form view of a Payment document to supplier includes the below content:
 
 
 **Other expense**
--------------
+-----------------
 
 The expenses related to projects (Budget code 4000 ~ 7999) are inputed in “Other expense”  in order to separate with material/labour orders.
  
