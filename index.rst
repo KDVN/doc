@@ -11,7 +11,8 @@ Contents:
 .. toctree::
    :maxdepth: 3
 
-kdvn_openerp_guide.rst and tables
+kdvn_openerp_guide.rst 
+
 ==================
 
 * :ref:`genindex`
