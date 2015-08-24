@@ -139,7 +139,7 @@ html_theme_path = ['_themes']
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['kdvnstatic']
 epub_post_files = [('kdvn_openerp_guide.html', 'Openerp Guide'),
-                   ('kdvn_vn.html', 'General Expense')]
+                   ('kdvn_general_expense.html', 'General Expense')]
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
