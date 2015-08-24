@@ -3,65 +3,65 @@
 1. Giao Diện Chung
 ##################
 
-	1.1 Đăng Nhập 
-	=============
-		.. image:: kdvnstatic/IMG_login.png
-		.. centered:: Màn hình đăng nhập
+1.1 Đăng Nhập 
+=============
+	.. image:: kdvnstatic/IMG_login.png
+	.. centered:: Màn hình đăng nhập
 
-	1.2 Giới thiệu giao diện
-	========================
+1.2 Giới thiệu giao diện
+========================
 
-	Trong OpenERP có các loại giao diện Tree, Form, Graph, Calendar, Kaban. Hiện tại chỉ sử dụng chủ yếu 02 loại giao diện là Tree và Form
+Trong OpenERP có các loại giao diện Tree, Form, Graph, Calendar, Kaban. Hiện tại chỉ sử dụng chủ yếu 02 loại giao diện là Tree và Form
 
-	1.2.1 Giao diện chính và giao diện Tree
-	---------------------------------------
+1.2.1 Giao diện chính và giao diện Tree
+---------------------------------------
 
-		.. image:: kdvnstatic/2_IMG_ge.png
-		.. centered:: Giao diện Tree view Payment 
+	.. image:: kdvnstatic/2_IMG_ge.png
+	.. centered:: Giao diện Tree view Payment 
 
-		Giải thích các ô đánh số trong khung mầu đỏ trên giao diện
-			1: Menu G.E & Expense: Là Menu nằm trên thanh ngang của hệ thống, Menu hiện thị danh mục các bảng dữ liệu thuộc phần chi phí
-			2: Danh mục bảng dữ liệu thuộc G.E & Expense
-				G.E & Expense: Dùng để nhập và lưu trữ thông tin về chi phí
-				Supplier Payment: Dùng để nhập và Lưu trữ thông tin về thanh toán Yearly G.E Budget: Giao diện tổng hợp về Chi Phí Chung (Nhập budget và các thông tin cơ bản chi phí chung của 01 năm)
-				Budgets: Dùng để nhập và lưu trữ Budget 
-	 			Departments: Dùng để nhập và lưu trữ nhân viên thuộc bộ phận phòng ban
-				Update Allocated Expense: Dùng để tự động cập nhật trạng thái phân bổ chi phí.
-			3: Nút Create: Dùng để tạo mới bản ghi
-			4: Nút Import: Dùng đưa dữ liệu vào hệ thống bằng file csv trong excel
-			5: Report/From, Action
-				Report /Form: Hiện thị danh sách báo cáo liên quan đến bảng dữ liệu
-				Action: Hiện thị các chức năng xóa bản ghi, nhập xuất dữ liệu, Nhật ký nhập liệu. ...
-			6: Ô Search: Nhập nội dung tìm kiếm dữ liệu
-			7: Hiện thị số bản ghi trên Treeview 
-			8: Lựa chọn các cách xem dữ liệu 
-				+ Chon List view   để xem dữ liệu kiểu Tree
+	Giải thích các ô đánh số trong khung mầu đỏ trên giao diện
+		1: Menu G.E & Expense: Là Menu nằm trên thanh ngang của hệ thống, Menu hiện thị danh mục các bảng dữ liệu thuộc phần chi phí
+		2: Danh mục bảng dữ liệu thuộc G.E & Expense
+			G.E & Expense: Dùng để nhập và lưu trữ thông tin về chi phí
+			Supplier Payment: Dùng để nhập và Lưu trữ thông tin về thanh toán Yearly G.E Budget: Giao diện tổng hợp về Chi Phí Chung (Nhập budget và các thông tin cơ bản chi phí chung của 01 năm)
+			Budgets: Dùng để nhập và lưu trữ Budget 
+	 		Departments: Dùng để nhập và lưu trữ nhân viên thuộc bộ phận phòng ban
+			Update Allocated Expense: Dùng để tự động cập nhật trạng thái phân bổ chi phí.
+		3: Nút Create: Dùng để tạo mới bản ghi
+		4: Nút Import: Dùng đưa dữ liệu vào hệ thống bằng file csv trong excel
+		5: Report/From, Action
+			Report /Form: Hiện thị danh sách báo cáo liên quan đến bảng dữ liệu
+			Action: Hiện thị các chức năng xóa bản ghi, nhập xuất dữ liệu, Nhật ký nhập liệu. ...
+		6: Ô Search: Nhập nội dung tìm kiếm dữ liệu
+		7: Hiện thị số bản ghi trên Treeview 
+		8: Lựa chọn các cách xem dữ liệu 
+			+ Chon List view   để xem dữ liệu kiểu Tree
 							.. image:: kdvnstatic/1_IMG_ge_list_view.png
-				+ Chọn Form view  để xem dữ liệu dạng Form 
+			+ Chọn Form view  để xem dữ liệu dạng Form 
 							.. image:: kdvnstatic/1_IMG_ge_form_view.png 
-			9: List bản ghi hiện thị ở dạng Treeview
+		9: List bản ghi hiện thị ở dạng Treeview
 	
-	1.2.2 Giao diện và các chức năng trên Form 
-	------------------------------------------
+1.2.2 Giao diện và các chức năng trên Form 
+------------------------------------------
 
 	.. image:: kdvnstatic/3_IMG_ge.png
 	.. centered::Giao diện hiện thị các chức năng của chương trình 
 
-		1. Nút Save: Dùng để lưu dữ liệu sau khi nhập mới hoặc sửa lại dữ liệu.
+	1. Nút Save: Dùng để lưu dữ liệu sau khi nhập mới hoặc sửa lại dữ liệu.
 
-		2. Nút Discard: Dùng để hủy bỏ dữ liệu sau khi nhập mới hoặc sửa dữ liệu, nếu không muốn lưu dữ liệu vào hệ thống.
+	2. Nút Discard: Dùng để hủy bỏ dữ liệu sau khi nhập mới hoặc sửa dữ liệu, nếu không muốn lưu dữ liệu vào hệ thống.
 
-		3. Các nút xử lý quy trình dữ liệu
+	3. Các nút xử lý quy trình dữ liệu
 
-		4. Attachment(s): Dùng để đính kèm tài liệu vào bản ghi dữ liệu
+	4. Attachment(s): Dùng để đính kèm tài liệu vào bản ghi dữ liệu
 	
-		5. Nút dịch chuyển thứ tự trước sau của bản ghi dữ liệu
+	5. Nút dịch chuyển thứ tự trước sau của bản ghi dữ liệu
 
-		6. Hiện thị trạng thái của dữ liệu theo quy trình
+	6. Hiện thị trạng thái của dữ liệu theo quy trình
 
-		7. Hiện thị các trang dữ liệu trong Form view
+	7. Hiện thị các trang dữ liệu trong Form view
 
-		8. Khu vực nhập dữ liệu 
+	8. Khu vực nhập dữ liệu 
 
 	* Chú ý : 
 		Trong khu vực nhập liệu 8, khi trường dữ liệu có màu vàng nhạt có nghĩa là bạn phải nhập dữ liệu vào không được bỏ trống, các trường khác có thể bỏ trống.
@@ -69,229 +69,211 @@
 2. Nhập liệu Thông tin
 ######################
 
-	2.1 Yearly Budget 
-	=================
-		2.1.1 Giao diện Yearly Budget 
-		-----------------------------
+2.1 Yearly Budget 
+=================
+2.1.1 Giao diện Yearly Budget 
+-----------------------------
 
-			.. image:: kdvnstatic/5_IMG_ge.png
-			.. centered:: Giao diện khi ấn vào Yearly G.E Budget 		
+	.. image:: kdvnstatic/5_IMG_ge.png
+	.. centered:: Giao diện khi ấn vào Yearly G.E Budget 		
 	
-		2.1.2 Thông tin nhập liệu
-		-------------------------
+2.1.2 Thông tin nhập liệu
+-------------------------
 
-			.. image:: kdvnstatic/6_IMG_ge.png
-			.. centered::Giao diện khi tạo mới một Yearly G.E Budget
-			Code Budget: Hệ thống tự động tạo Code theo năm.
-			Start Date: Ngày bắt đầu phân bổ chi phí
-			Closed Date: Ngày kết thúc phân bổ chi phí 
-			Currencies: Đơn vị tỷ giá
-			Trang G.E. Amount Info.: Hiển thị thông tin tổng chi phí trong năm	
-			.. image:: kdvnstatic/1_IMG_ge_yearly_amount.png
-			.. centered:: Giao diện dữ liệu trang G.E. Amount Info. trong Yearly G.E Budget 
+	.. image:: kdvnstatic/6_IMG_ge.png
+	.. centered::Giao diện khi tạo mới một Yearly G.E Budget
+	Code Budget: Hệ thống tự động tạo Code theo năm.
+	Start Date: Ngày bắt đầu phân bổ chi phí
+	Closed Date: Ngày kết thúc phân bổ chi phí 
+	Currencies: Đơn vị tỷ giá
+	Trang G.E. Amount Info.: Hiển thị thông tin tổng chi phí trong năm	
+	.. image:: kdvnstatic/1_IMG_ge_yearly_amount.png
+	.. centered:: Giao diện dữ liệu trang G.E. Amount Info. trong Yearly G.E Budget 
 		 
-			Total Budget: Tổng chi phí dự kiến trong năm
-			Expense: Tổng chi phí Trong năm 
-			Payment: Tổng trả cho chi phí trong năm
-			Trang Budget	
-				Code: Nhập Budget Code
-				Amount: Nhập dự toán chi phí
-				Expense: Chi phí theo khoảng thời gian (tính từ Start Date đến Closed Date) 
-				Payment: Chi phí phải trả theo khoảng thời gian (tính từ Start Date đến Closed Date)
-				Balance: Chi phi còn lại theo khoảng thời gian (tính từ Start Date đến Closed Date)
-				Over: Thông báo chi phí vượt quá dự toán hay không (Yes: là vượt quá chi phí và có màu đỏ, No là không quá chi phí) 
+	Total Budget: Tổng chi phí dự kiến trong năm
+	Expense: Tổng chi phí Trong năm 
+	Payment: Tổng trả cho chi phí trong năm
+	Trang Budget	
+		Code: Nhập Budget Code
+		Amount: Nhập dự toán chi phí
+		Expense: Chi phí theo khoảng thời gian (tính từ Start Date đến Closed Date) 
+		Payment: Chi phí phải trả theo khoảng thời gian (tính từ Start Date đến Closed Date)
+		Balance: Chi phi còn lại theo khoảng thời gian (tính từ Start Date đến Closed Date)
+		Over: Thông báo chi phí vượt quá dự toán hay không (Yes: là vượt quá chi phí và có màu đỏ, No là không quá chi phí) 
 
-			.. image:: kdvnstatic/7_IMG_ge.png
-			.. centered::Giao diện dữ liệu trang Budget trên Yearly G.E Budget  
+		.. image:: kdvnstatic/7_IMG_ge.png
+		.. centered::Giao diện dữ liệu trang Budget trên Yearly G.E Budget  
 
 
 2.2 Budget
 ==========
-	2.2.1 Giao diện Budget
-	----------------------
+2.2.1 Giao diện Budget
+----------------------
 
-		.. image:: kdvnstatic/8_IMG_ge.png
-		.. centered::Giao diện Budget
+	.. image:: kdvnstatic/8_IMG_ge.png
+	.. centered:: Giao diện Budget
 
-	2.2.2 Thông tin nhập liệu
-	-------------------------
+2.2.2 Thông tin nhập liệu
+-------------------------
 
-		.. image:: kdvnstatic/9_IMG_ge.png
-		.. centered::Giao diện tạo mới một Budget 
+	.. image:: kdvnstatic/9_IMG_ge.png
+	.. centered::Giao diện tạo mới một Budget 
 
-		Name: Tên Budget
-		Code: Code Budget
-		Category: Danh mục Budget
-		Active: Tích chọn Code có dùng hay không
-		General Expense: Tích chọn thuộc chi phí chung hay không
+	Name: Tên Budget
+	Code: Code Budget
+	Category: Danh mục Budget
+	Active: Tích chọn Code có dùng hay không
+	General Expense: Tích chọn thuộc chi phí chung hay không
 
 2.3 Department
 ==============
- Dùng để lưu trữ phòng ban
+ 	Dùng để lưu trữ phòng ban
 2.3.1 Giao diện mành  hình Department
--------------------------------------
-
-
-.. image:: kdvnstatic/10_IMG_ge.png
-Giao diện tạo mới một phòng ban 
-
-
-
-
-
-
-
+	-------------------------------------
+	.. image:: kdvnstatic/10_IMG_ge.png
+	.. centered::Giao diện tạo mới một phòng ban 
 
 2.3.2 Thông tin nhập liệu
 -------------------------
 
-
 	.. image:: kdvnstatic/11_IMG_ge.png
-Giao diện tạo mới một Department 
+	.. centered:: Giao diện tạo mới một Department 
 
-Code: Mã bộ phận phòng ban
-Department Name: Tên bộ phận phòng ban
-Manager: Người quản lý bộ phận phong ban
-2nd Manager: Phó bộ phận phòng ban
-G.E in Charges: Tích chọn để hệ thống điền tự động Section in Charges trong chi phí hay không 
-Parent Department: Trực thuộc phòng
-Trang Expense: Hiện thị chi phí budget code trong năm của riêng bộ phận phòng ban
-Trang Member: Nhập nhân viên thuộc bộ phận phong ban
-
+	Code: Mã bộ phận phòng ban
+	Department Name: Tên bộ phận phòng ban
+	Manager: Người quản lý bộ phận phong ban
+	2nd Manager: Phó bộ phận phòng ban
+	G.E in Charges: Tích chọn để hệ thống điền tự động Section in Charges trong chi phí hay không 
+	Parent Department: Trực thuộc phòng
+	Trang Expense: Hiện thị chi phí budget code trong năm của riêng bộ phận phòng ban
+	Trang Member: Nhập nhân viên thuộc bộ phận phong ban
 
 	.. image:: kdvnstatic/12_IMG_ge.png
-	Giao diện sau khi ấn vào trang Members
-
-Ấn vào nút Add để thêm nhân viên 
-
+	.. centered:: Giao diện sau khi ấn vào trang Members
+			
+	Ấn vào nút Add để thêm nhân viên 
 
 2.4 Expense & Payment
 =====================
 
-
 	.. image:: kdvnstatic/13_IMG-ge.png
-Giao diện khi ấn vào General Expense trên danh mục Menu
-
-
+	.. centered:: Giao diện khi ấn vào General Expense trên danh mục Menu
 	.. image:: kdvnstatic/14_IMG_ge.png
-Giao diện khi ấn vào Supplier Payment trên danh mục Menu
+	.. centered:: Giao diện khi ấn vào Supplier Payment trên danh mục Menu
 
- General Expense được chia làm 4 loại chi phí
-●	Expense: Chi phí chung 
-●	Prepaid : Chi phí trả trước
-●	Fixed Asset : Chi phí cho tài sản cố định
-●	Allocated Expense: Chi phí phân bổ cho trả trước và tài sản cố định
-		2.4.1 Nhập liệu chi phí trường hợp Type là Fixed Asset 
+	General Expense được chia làm 4 loại chi phí
 
+		- Expense: Chi phí chung 
+		- Prepaid : Chi phí trả trước
+		- Fixed Asset : Chi phí cho tài sản cố định
+		- Allocated Expense: Chi phí phân bổ cho trả trước và tài sản cố định
+
+2.4.1 Nhập liệu chi phí trường hợp Type là Fixed Asset 
+------------------------------------------------------
 2.4.1.1 Thông tin nhập liệu
----------------------------
-
+***************************
 
 	.. image:: kdvnstatic/15_IMg_ge.png
-Giao diện tạo mới một General Expense
+	.. centered:: Giao diện tạo mới một General Expense
 
-Giao diện có 3 trang chính
+	Giao diện có 3 trang chính
 
 	.. image:: kdvnstatic/16_IMG_ge.png
 
 	.. image:: kdvnstatic/17_IMG_ge.png
+	.. centered::Giao diện trang Expense Details trên General Expense 
 
-Giao diện trang Expense Details trên General Expense 
+	Trang Expense Details: Nhập thông tin về chi phí
 
-Trang Expense Details: Nhập thông tin về chi phí
+		.. image:: kdvnstatic/19_IMG_ge.png
+		.. centered::Giao diên trang Allocation Sheet trên General Expense 
 
-	.. image:: kdvnstatic/19_IMG_ge.png
+	Trang Allocation Sheet: Hiện thị phân bổ chi phi 
 
-Giao diên trang Allocation Sheet trên General Expense 
-Trang Allocation Sheet: Hiện thị phân bổ chi phi 
+		.. image:: kdvnstatic/20_IMG_ge.png
+		.. centered::Giao diện khi ấn vào trang Payment & VAT Invoice trên General Expense
+	
+	Trang Payment & VAT Invoice: Hiện thị thông tin thanh toán và hóa đơn
 
-	.. image:: kdvnstatic/20_IMG_ge.png
-Giao diện khi ấn vào trang Payment & VAT Invoice trên General Expense
-Trang Payment & VAT Invoice: Hiện thị thông tin thanh toán và hóa đơn
 2.4.2.2 Quy Trình nhập liệu 
+***************************
 
-Quy Trình tạo chi phí có Type là Prepaid hoặc Fixed Asset
-+	Quy trình chi phí
- 
-+	Quy trình thanh toán: 
+	Quy Trình tạo chi phí có Type là Prepaid hoặc Fixed Asset
+		- Quy trình chi phí
+		- Quy trình thanh toán: 
   
-.. image:: kdvnstatic/
+			.. image:: kdvnstatic/1_IMG_ge_process_1.png
 
-Bước 1: Tạo Chi phí gồm thông tin:
- 	Expense No: Mã số chi phí 
-Type: Kiểu chi phí
-Exp/Allocated Date: Ngày chi phí
-Section in Charges: Phòng ban của người tạo chi phí
-Supplier: Nhà cung cấp
-Address: Địa chỉ nhà cung cấp
-Scope of Work: Diễn giải chi phí
-Currency: Tiền tệ
- 	Ex.Rate: Tỉ giá
-Advance No: Mã số Advance
-Desc.: Diễn giải
-Amount: Số tiền chi phí
-Sau khi tạo một chi phí hoàn thành thông tin, ấn nút Submit để yêu cầu BOD ký duyệt. Trạng thái chi phí từ Daft sang Wait for Payment 
-Bước 2: Sau khi được BOD ký tiến hành làm Quotation, Trường hợp không được ký duyệt người dùng ấn vào   trên Form chi phí để hủy bỏ yêu cầu chi phí. 
-Nhập thông tin đầy đủ cho thanh toán.
-Payment No: Mã thanh toán 
-R.O.P. Date: Ngày thanh toán 
-Due Date: Ngày hết hạn thanh toán
-Expense No.: Mã chi phí
-Payment type: Kiểu thanh toán 
-Supplier: Nhà cung cấp
-Applicant User: Người sử dụng
-Payee: Người trả
-Force Period: Thời kỳ kế toán
-Description: Diễn giải
-Job: Dự án
-Amount: Số tiền
+		Bước 1: Tạo Chi phí gồm thông tin:
+ 			- Expense No: Mã số chi phí 
+			- Type: Kiểu chi phí
+			- Exp/Allocated Date: Ngày chi phí
+			- Section in Charges: Phòng ban của người tạo chi phí
+			- Supplier: Nhà cung cấp
+			- Address: Địa chỉ nhà cung cấp
+			- Scope of Work: Diễn giải chi phí
+			- Currency: Tiền tệ
+ 			- Ex.Rate: Tỉ giá
+			- Advance No: Mã số Advance
+			- Desc.: Diễn giải
+			- Amount: Số tiền chi phí
+			- Sau khi tạo một chi phí hoàn thành thông tin, ấn nút Submit để yêu cầu BOD ký duyệt. Trạng thái chi phí từ Daft sang Wait for Payment 
 
-Bước 3: Sau khi tạo một thanh toán ấn Submit đợi BOD ký duyệt, trạng thái thanh toán chuyển từ Draft sang BOD Checking.
+		Bước 2: Sau khi được BOD ký tiến hành làm Quotation, Trường hợp không được ký duyệt người dùng ấn vào   trên Form chi phí để hủy bỏ yêu cầu chi phí. 
+			Nhập thông tin đầy đủ cho thanh toán.
+				- Payment No: Mã thanh toán 
+				- R.O.P. Date: Ngày thanh toán 
+				- Due Date: Ngày hết hạn thanh toán
+				- Expense No.: Mã chi phí
+				- Payment type: Kiểu thanh toán 
+				- Supplier: Nhà cung cấp
+				- Applicant User: Người sử dụng
+				- Payee: Người trả
+				- Force Period: Thời kỳ kế toán
+				- Description: Diễn giải
+				- Job: Dự án
+				- Amount: Số tiền
 
-Bước 4: Sau khi được BOD ký duyệt ấn nút BOD approved để tiến hành làm thanh toán mua bán, Trạng thái thanh toán chuyển từ BOD checking sang BOD approved.
-Trường hợp không được ký duyệt người dùng ấn vào nút   trên Form Supplier Payment để hủy bỏ.
-Nhập thông tin trên trang
-●	Trang VAT Invoices: 
-VAT Inv. No.: Số hóa đơn VAT
- 	Date: Ngày hóa đơn
-Cur.: Loại tiền
-Sub-Total: Tiền trước thuế
-VAT (%): % thuế
-VAT: Tiền thuế
-Total: Tiền sau thuế
- In VND: Tiền VND
- @: Kiểu đơn vị tiền
- Received Date: Ngày nhận hóa đơn
-To Accounting Date: Ngày kế toán
- Returned Date: Ngày hoàn trả
-●	Trang Paid: 
-Date: Ngày trả
-Journal: Kiểu thanh toán
-Period: Thời kỳ kế toán
-Currency: Kiểu tiền
-Bank: Ngân hàng
-Amount: Số tiền
-Ex.Rate: Tỷ giá
-State: Trạng thái
-Sau bước 4: 
-Trạng Thái thanh toán BOD approved sẽ chuyển sang Paid khi
-(1)	Total Amount = (2) Total VAT = (3) Total Paid 
+		Bước 3: Sau khi tạo một thanh toán ấn Submit đợi BOD ký duyệt, trạng thái thanh toán chuyển từ Draft sang BOD Checking.
 
+		Bước 4: Sau khi được BOD ký duyệt ấn nút BOD approved để tiến hành làm thanh toán mua bán, Trạng thái thanh toán chuyển từ BOD checking sang BOD approved.
+					Trường hợp không được ký duyệt người dùng ấn vào nút   trên Form Supplier Payment để hủy bỏ.Nhập thông tin trên trang
+				●	Trang VAT Invoices: 
+						VAT Inv. No.: Số hóa đơn VAT
+	 					Date: Ngày hóa đơn
+						Cur.: Loại tiền
+						Sub-Total: Tiền trước thuế
+						VAT (%): % thuế
+						VAT: Tiền thuế
+						Total: Tiền sau thuế
+						In VND: Tiền VND
+						@: Kiểu đơn vị tiền
+						Received Date: Ngày nhận hóa đơn
+						To Accounting Date: Ngày kế toán
+						Returned Date: Ngày hoàn trả
+				●	Trang Paid: 
+					Date: Ngày trả
+					Journal: Kiểu thanh toán
+					Period: Thời kỳ kế toán
+					Currency: Kiểu tiền
+					Bank: Ngân hàng
+					Amount: Số tiền
+					Ex.Rate: Tỷ giá
+					State: Trạng thái
+				Sau bước 4: Trạng Thái thanh toán BOD approved sẽ chuyển sang Paid khi
+				(1)	Total Amount = (2) Total VAT = (3) Total Paid 
+				.. image:: kdvnstatic/21_IMG_ge.png
+				.. image:: kdvnstatic/22_IMG_ge.png
 
-.. image:: kdvnstatic/21_IMG_ge.png
+				Trạng thái của chi phí sau bước 4 trạng thái chuyển sang Paid khi 
+				(1) Total Amount = (2) Total VAT = (3) Total Paid = (4) Total GE
 
-.. image:: kdvnstatic/22_IMG_ge.png
-Trạng thái của chi phí sau bước 4 trạng thái chuyển sang Paid khi 
-(1) Total Amount = (2) Total VAT = (3) Total Paid = (4) Total GE
+				.. image:: kdvnstatic/23_IMG_ge.png
+				.. centered:: Một chi phí kết thúc khi trạng thái ở Completed. 
 
-.. image:: kdvnstatic/23_IMG_ge.png
+				Trên hình trên chi phí chưa Completed do Amount G.E <> Amount phân bổ chi phí.Để chi phí Completed, tiến hành phân bổ chi Phí (Create Allocation Sheet)
 
-Một chi phí kết thúc khi trạng thái ở Completed. 
-Trên hình trên chi phí chưa Completed do Amount G.E <> Amount phân bổ chi phí.
-Để chi phí Completed, tiến hành phân bổ chi Phí (Create Allocation Sheet)
-
-
-	.. image:: kdvnstatic/24_IMG_ge.png
+				.. image:: kdvnstatic/24_IMG_ge.png
 
  Ấn nút  trên giao diện để phân bổ chi phí
 
