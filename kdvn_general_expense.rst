@@ -119,17 +119,17 @@ Trong OpenERP có các loại giao diện Tree, Form, Graph, Calendar, Kaban. Hi
 	.. image:: kdvnstatic/9_IMG_ge.png
 	.. centered::Giao diện tạo mới một Budget 
 
-	Name: Tên Budget
-	Code: Code Budget
-	Category: Danh mục Budget
-	Active: Tích chọn Code có dùng hay không
-	General Expense: Tích chọn thuộc chi phí chung hay không
+	- Name: Tên Budget
+	- Code: Code Budget
+	- Category: Danh mục Budget
+	- Active: Tích chọn Code có dùng hay không
+	- General Expense: Tích chọn thuộc chi phí chung hay không
 
 2.3 Department
 ==============
  	Dùng để lưu trữ phòng ban
 2.3.1 Giao diện mành  hình Department
-	-------------------------------------
+-------------------------------------
 	.. image:: kdvnstatic/10_IMG_ge.png
 	.. centered::Giao diện tạo mới một phòng ban 
 
@@ -139,14 +139,14 @@ Trong OpenERP có các loại giao diện Tree, Form, Graph, Calendar, Kaban. Hi
 	.. image:: kdvnstatic/11_IMG_ge.png
 	.. centered:: Giao diện tạo mới một Department 
 
-	Code: Mã bộ phận phòng ban
-	Department Name: Tên bộ phận phòng ban
-	Manager: Người quản lý bộ phận phong ban
-	2nd Manager: Phó bộ phận phòng ban
-	G.E in Charges: Tích chọn để hệ thống điền tự động Section in Charges trong chi phí hay không 
-	Parent Department: Trực thuộc phòng
-	Trang Expense: Hiện thị chi phí budget code trong năm của riêng bộ phận phòng ban
-	Trang Member: Nhập nhân viên thuộc bộ phận phong ban
+	- Code: Mã bộ phận phòng ban
+	- Department Name: Tên bộ phận phòng ban
+	- Manager: Người quản lý bộ phận phong ban
+	- 2nd Manager: Phó bộ phận phòng ban
+	- G.E in Charges: Tích chọn để hệ thống điền tự động Section in Charges trong chi phí hay không 
+	- Parent Department: Trực thuộc phòng
+	- Trang Expense: Hiện thị chi phí budget code trong năm của riêng bộ phận phòng ban
+	- Trang Member: Nhập nhân viên thuộc bộ phận phong ban
 
 	.. image:: kdvnstatic/12_IMG_ge.png
 	.. centered:: Giao diện sau khi ấn vào trang Members
@@ -220,48 +220,49 @@ Trong OpenERP có các loại giao diện Tree, Form, Graph, Calendar, Kaban. Hi
 			- Sau khi tạo một chi phí hoàn thành thông tin, ấn nút Submit để yêu cầu BOD ký duyệt. Trạng thái chi phí từ Daft sang Wait for Payment 
 
 		Bước 2: Sau khi được BOD ký tiến hành làm Quotation, Trường hợp không được ký duyệt người dùng ấn vào   trên Form chi phí để hủy bỏ yêu cầu chi phí. 
-			Nhập thông tin đầy đủ cho thanh toán.
-				- Payment No: Mã thanh toán 
-				- R.O.P. Date: Ngày thanh toán 
-				- Due Date: Ngày hết hạn thanh toán
-				- Expense No.: Mã chi phí
-				- Payment type: Kiểu thanh toán 
-				- Supplier: Nhà cung cấp
-				- Applicant User: Người sử dụng
-				- Payee: Người trả
-				- Force Period: Thời kỳ kế toán
-				- Description: Diễn giải
-				- Job: Dự án
-				- Amount: Số tiền
+		Nhập thông tin đầy đủ cho thanh toán.
+			- Payment No: Mã thanh toán 
+			- R.O.P. Date: Ngày thanh toán 
+			- Due Date: Ngày hết hạn thanh toán
+			- Expense No.: Mã chi phí
+			- Payment type: Kiểu thanh toán 
+			- Supplier: Nhà cung cấp
+			- Applicant User: Người sử dụng
+			- Payee: Người trả
+			- Force Period: Thời kỳ kế toán
+			- Description: Diễn giải
+			- Job: Dự án
+			- Amount: Số tiền
 
 		Bước 3: Sau khi tạo một thanh toán ấn Submit đợi BOD ký duyệt, trạng thái thanh toán chuyển từ Draft sang BOD Checking.
 
 		Bước 4: Sau khi được BOD ký duyệt ấn nút BOD approved để tiến hành làm thanh toán mua bán, Trạng thái thanh toán chuyển từ BOD checking sang BOD approved.
-					Trường hợp không được ký duyệt người dùng ấn vào nút   trên Form Supplier Payment để hủy bỏ.Nhập thông tin trên trang
-				●	Trang VAT Invoices: 
-						VAT Inv. No.: Số hóa đơn VAT
-	 					Date: Ngày hóa đơn
-						Cur.: Loại tiền
-						Sub-Total: Tiền trước thuế
-						VAT (%): % thuế
-						VAT: Tiền thuế
-						Total: Tiền sau thuế
-						In VND: Tiền VND
-						@: Kiểu đơn vị tiền
-						Received Date: Ngày nhận hóa đơn
-						To Accounting Date: Ngày kế toán
-						Returned Date: Ngày hoàn trả
-				●	Trang Paid: 
-					Date: Ngày trả
-					Journal: Kiểu thanh toán
-					Period: Thời kỳ kế toán
-					Currency: Kiểu tiền
-					Bank: Ngân hàng
-					Amount: Số tiền
-					Ex.Rate: Tỷ giá
-					State: Trạng thái
+			Trường hợp không được ký duyệt người dùng ấn vào nút   trên Form Supplier Payment để hủy bỏ.Nhập thông tin trên trang
+				- Trang VAT Invoices: 
+					+ VAT Inv. No.: Số hóa đơn VAT
+	 				+ Date: Ngày hóa đơn
+					+ Cur.: Loại tiền
+					+ Sub-Total: Tiền trước thuế
+					+ VAT (%): % thuế
+					+ VAT: Tiền thuế
+					+ Total: Tiền sau thuế
+					+ In VND: Tiền VND
+					+ @: Kiểu đơn vị tiền
+					+ Received Date: Ngày nhận hóa đơn
+					+ To Accounting Date: Ngày kế toán
+					+ Returned Date: Ngày hoàn trả
+				- Trang Paid: 
+					+ Date: Ngày trả
+					+ Journal: Kiểu thanh toán
+					+ Period: Thời kỳ kế toán
+					+ Currency: Kiểu tiền
+					+ Bank: Ngân hàng
+					+ Amount: Số tiền
+					+ Ex.Rate: Tỷ giá
+					+ State: Trạng thái
 				Sau bước 4: Trạng Thái thanh toán BOD approved sẽ chuyển sang Paid khi
 				(1)	Total Amount = (2) Total VAT = (3) Total Paid 
+
 				.. image:: kdvnstatic/21_IMG_ge.png
 				.. image:: kdvnstatic/22_IMG_ge.png
 
@@ -275,204 +276,213 @@ Trong OpenERP có các loại giao diện Tree, Form, Graph, Calendar, Kaban. Hi
 
 				.. image:: kdvnstatic/24_IMG_ge.png
 
- Ấn nút  trên giao diện để phân bổ chi phí
+ 			Ấn nút  trên giao diện để phân bổ chi phí
 
-.. image:: kdvnstatic/25_IMG_ge.png
-Giao diện tạo một phân bổ chi phí 
+			.. image:: kdvnstatic/25_IMG_ge.png
+			.. centered:: Giao diện tạo một phân bổ chi phí 
 
-Nhập thông tin phân bổ chi phí: 
-Start Date: Ngày bắt đầu tính phân bổ chi phí
-Number of month: Tống số tháng phân bổ chi phí 
-Allocated to Section: Bộ phận sử dụng 
-Budget: Code Budget
-Select: Lựa chọn số tháng được phân bổ trước (1 month, For And of this Year, Custom) 
-1 Month: hệ thông sẽ phân bổ 1 tháng lấy tháng nhập trong Start Date
-	For and of this Year : phân bổ cho các thang trong năm tính từ tháng nhập trong Start Date.
-Custom: người dùng nhập tổng số tháng muốn phân bổ
+			Nhập thông tin phân bổ chi phí: 
+				- Start Date: Ngày bắt đầu tính phân bổ chi phí
+				- Number of month: Tống số tháng phân bổ chi phí 
+				- Allocated to Section: Bộ phận sử dụng 
+				- Budget: Code Budget
+				- Select: Lựa chọn số tháng được phân bổ trước (1 month, For And of this Year, Custom) 
+				- 1 Month: hệ thông sẽ phân bổ 1 tháng lấy tháng nhập trong Start Date
+				- For and of this Year : phân bổ cho các thang trong năm tính từ tháng nhập trong Start Date.
+				- Custom: người dùng nhập tổng số tháng muốn phân bổ
 
+			.. image:: kdvnstatic/26_IMG_ge.png
+			.. centered:: Giao diện sau khi nhập và ấn Create Allocation Sheet trên giao diện Create Allocation Sheet
 
-.. image:: kdvnstatic/26_IMG_ge.png
+			.. image:: kdvnstatic/27_IMG_ge.png
+			.. image:: kdvnstatic/28_IMG_ge.png
+			.. centered:: Giao diện sau tạo một thông tin Payment & Invoice, Paid
 
-Giao diện sau khi nhập và ấn Create Allocation Sheet trên giao diện Create Allocation Sheet
+			General Expense chuyển trạng thái Completed khi 
+			(1) Total Amount = (2) Total VAT = (3) Total Paid = (4) Total G.E
+			Và (5) Amount G.E (Allocated) = (6) Amount G.E
+			Và Trạng Thái General Expense Allocated Completed
 
-.. image:: kdvnstatic/27_IMG_ge.png
+			*Ghi chú:
+				- khi Payment ở trạng thái Paid người dùng muốn sửa lại thanh toán ấn vào trên giao diện Payment để sửa, sau khi sửa xong ấn   để hoàn thành, ấn vào  để hủy bỏ payment 
+				- Tương tự với General Expense sửa lại thanh toán ấn vào trên giao diện Payment để sửa , sau khi sửa xong ấn   để hoàn thành , ấn vào  để hủy bỏ payment Để mở xem chi tiết phân bổ chi phí ấn vào trên giao diện.
 
-
-.. image:: kdvnstatic/28_IMG_ge.png
-
-	Giao diện sau tạo một thông tin Payment & Invoice, Paid
-
-General Expense chuyển trạng thái Completed khi 
-(1) Total Amount = (2) Total VAT = (3) Total Paid = (4) Total G.E
-Và (5) Amount G.E (Allocated) = (6) Amount G.E
-Và Trạng Thái General Expense Allocated Completed
-
-*Ghi chú:
--	 khi Payment ở trạng thái Paid người dùng muốn sửa lại thanh toán ấn vào   trên giao diện Payment để sửa, sau khi sửa xong ấn   để hoàn thành, ấn vào  để hủy bỏ payment 
--	Tương tự với General Expense sửa lại thanh toán ấn vào   trên giao diện Payment để sửa , sau khi sửa xong ấn   để hoàn thành , ấn vào  để hủy bỏ payment 
-Để mở xem chi tiết phân bổ chi phí ấn vào   trên giao diện.
-
-.. image:: kdvnstatic/29_IMG_ge.png
-Giao diện hướng dẫn mở phân bổ chi phí
+			.. image:: kdvnstatic/29_IMG_ge.png
+			.. centered:: Giao diện hướng dẫn mở phân bổ chi phí
 
 2.4.2 Nhập General Expense trường hợp Type là Expense
+-----------------------------------------------------
 
 2.4.2.1 Thông tin nhập liệu 
+***************************
 
-Expense No.: Hệ thống tự tạo sau khi người dùng chọn Job/G.E
-Job/G.E: Hệ thống tự động điền Code năm hiện tại (có thể thay đổi khi lựa chọn lại Job Code).
-Exp. /Allocated Date: Hệ thống tự động điền ngày hiện tại (Có thể nhập khác ngày)
-Section in Charges: Hệ thống tự điện bộ phận phòng ban của nhân viên nhập liệu
-Trang Expense Detail:
-	Supplier: Nhập nhà cung cấp
-	Address: Địa chỉ nhà cung cấp
-	Scope of Works: Diễn giải chi phí
-	Currency: Tỷ giá giao dịch 
-	Advance No.: Nhập Code Advance
-	Job/G.E: Nhập Job Code
-	Budget Code: Nhập Budget Code
-	Allocated Section: Nhập bộ phận phòng ban yêu cầu 
-	Amount: Nhập số tiền chi phí
-Trang Payment & VAT Invoice: Hiện thị thông tin mua và trả của chi phí
+	- Expense No.: Hệ thống tự tạo sau khi người dùng chọn Job/G.E
+	- Job/G.E: Hệ thống tự động điền Code năm hiện tại (có thể thay đổi khi lựa chọn lại Job Code).
+	- Exp. /Allocated Date: Hệ thống tự động điền ngày hiện tại (Có thể nhập khác ngày)
+	- Section in Charges: Hệ thống tự điện bộ phận phòng ban của nhân viên nhập liệu
+	- Trang Expense Detail:
+		+ Supplier: Nhập nhà cung cấp
+		+ Address: Địa chỉ nhà cung cấp
+		+ Scope of Works: Diễn giải chi phí
+		+ Currency: Tỷ giá giao dịch 
+		+ Advance No.: Nhập Code Advance
+		+ Job/G.E: Nhập Job Code
+		+ dget Code: Nhập Budget Code
+		+ located Section: Nhập bộ phận phòng ban yêu cầu 
+		+ Amount: Nhập số tiền chi phí
+	- Trang Payment & VAT Invoice: Hiện thị thông tin mua và trả của chi phí
 
-2.4.2.2 Quy Trình nhập liệu 
-+	Quy trình chi phí: .. image:: kdvnstatic/
-+	.. image:: kdvnstatic/ 
-+	Quy trình thanh toán: 
-+	
- 
-
-.. image:: kdvnstatic/
-
-.. image:: kdvnstatic/30_IMG_ge.png
-Giao diện tạo một chi phí có Type là Expense 
-Bước 1: Tạo chi phí gồm thông tin nhập liệu trên, ấn Submit trạng thái chi phí chuyển từ Draft từ sang Waiting for Payment, đợi BOD ký duyệt 
-
-	.. image:: kdvnstatic/31_IMG_ge.png
-
-Giao diện sau khi tạo một chi phí
-
-Sau khi ấn   trên giao diện, trạng thái chuyển từ Draft sang Waiting for Payment 
-
-.. image:: kdvnstatic/32_IMG_ge.png
-Giao diện khi ấn nút Submit trên General Expense
-
-Bước 2: Sau khi được BOD ký duyệt tiến hành làm Quotation 
+2.4.2.2 Quy Trình nhập liệu
+*************************** 
+	- Quy trình chi phí: 
+		.. image:: kdvnstatic/1_IMG_ge_process_2.png
 	
+	- Quy trình thanh toán: 
+		.. image:: kdvnstatic/ 1_IMG_ge_process_3.png
 	
-.. image:: kdvnstatic/33_IMG_ge.png
-Giao diện khi ấn vào trang Payment & VAT Invoice trên General Expense
-Click vào  để tạo Payment 
 
-.. image:: kdvnstatic/34_IMG_ge.png
-Giao diện sau khi ấn vào nút mở Payment 
-Nhập thông tin đầy đủ cho thanh toán:
-Payment No: Mã thanh toán 
-R.O.P. Date: Ngày thanh toán 
-Due Date: Ngày hết hạn thanh toán
-Expense No.: Mã chi phí
-Payment type: Kiểu thanh toán 
-Supplier: Nhà cung cấp
-Applicant User: Người sử dụng
-Payee: Người trả
-Force Period: Thời kỳ kế toán
-Description: Diễn giải
-Job: Dự án
-Amount: Số tiền
-Bước 3: Sau khi hoàn tất điền thông tin chi phí ấn Submit đợi BOD ký duyệt chi phí, Trạng thái thanh toán chuyển từ Draft sang BOD checking. Trong trường hợp không được ký duyệt thì ấn nút Reject để hủy bỏ Payment.
-Bước 4: Sau khi được BOD ký duyệt ấn nút BOD approved để tiến hành làm thanh toán mua bán, Trạng thái lúc này chuyển từ BOD checking sang BOD approved, trong trường hợp không được BOD ký duyệt ấn nút Reject để hủy bỏ Payment.
-Nhập thông tin trên trang:
-●	VAT Invoices: 
-VAT Inv. No.: Số hóa đơn VAT
-Date: Ngày hóa đơn
-Cur.: Loại tiền
-Sub-Total: Tiền trước thuế
-VAT (%): % thuế
-VAT: Tiền thuế
-Total: Tiền sau thuế
-In VND: Tiền VND
-@: Kiểu đơn vị tiền
-Received Date: Ngày nhận hóa đơn
-To Accounting Date: Ngày kế toán
- Returned Date: Ngày hoàn trả
-●	Paid: 
-Date: Ngày trả
-Journal: Kiểu thanh toán
-Period: Thời kỳ kế toán
-Currency: Kiểu tiền
-Bank: Ngân hàng
-Amount: Số tiền
-Ex.Rate: Tỷ giá
-State: Trạng thái
-●	Sau bước 4: 
-Trạng Thái BOD approved sẽ chuyển sang Paid khi 
-(1) Total Amount = (2) Total VAT = (3) Total Paid 
+	.. image:: kdvnstatic/30_IMG_ge.png
+	.. centered:: Giao diện tạo một chi phí có Type là Expense 
+	
+	Bước 1: Tạo chi phí gồm thông tin nhập liệu trên, ấn Submit trạng thái chi phí chuyển từ Draft từ sang Waiting for Payment, đợi BOD ký duyệt 
 
-.. image:: kdvnstatic/35_IMG_ge.png
+		.. image:: kdvnstatic/31_IMG_ge.png
+		.. centered:: Giao diện sau khi tạo một chi phí
 
+		Sau khi ấn trên giao diện, trạng thái chuyển từ Draft sang Waiting for Payment 
 
-.. image:: kdvnstatic/36_IMG_ge.png
-Trạng thái của chi phí sau bước 4 sẽ là Paid khi 
-(1)	Total Amount = (2) Total VAT = (3) Total Paid = (4) Total GE
+		.. image:: kdvnstatic/32_IMG_ge.png
+		.. centered:: Giao diện khi ấn nút Submit trên General Expense
 
-.. image:: kdvnstatic/37_IMg_ge.png
-* Ghi chú: 
-* Sau khi chi phí Completed, và thanh toán ở trạng thái Paid người dùng muốn sửa click vào nút Open để mở và sửa dữ liệu.
+	Bước 2: Sau khi được BOD ký duyệt tiến hành làm Quotation 
+	
+		.. image:: kdvnstatic/33_IMG_ge.png
+		.. centered:: Giao diện khi ấn vào trang Payment & VAT Invoice trên General Expense
+		
+		Click vào  để tạo Payment 
 
-.. image:: kdvnstatic/38_IMG_ge.png
+		.. image:: kdvnstatic/34_IMG_ge.png
+		.. centered:: Giao diện sau khi ấn vào nút mở Payment 
 
-	* Ấn vào nút   để hoàn tất thanh toán.
+		Nhập thông tin đầy đủ cho thanh toán:
+			- Payment No: Mã thanh toán 
+			- R.O.P. Date: Ngày thanh toán 
+			- Due Date: Ngày hết hạn thanh toán
+			- Expense No.: Mã chi phí
+			- Payment type: Kiểu thanh toán 
+			- Supplier: Nhà cung cấp
+			- Applicant User: Người sử dụng
+			- Payee: Người trả
+			- Force Period: Thời kỳ kế toán
+			- Description: Diễn giải
+			- Job: Dự án
+			- Amount: Số tiền
+
+	Bước 3: Sau khi hoàn tất điền thông tin chi phí ấn Submit đợi BOD ký duyệt chi phí, Trạng thái thanh toán chuyển từ Draft sang BOD checking. Trong trường hợp không được ký duyệt thì ấn nút Reject để hủy bỏ Payment.
+
+	Bước 4: Sau khi được BOD ký duyệt ấn nút BOD approved để tiến hành làm thanh toán mua bán, Trạng thái lúc này chuyển từ BOD checking sang BOD approved, trong trường hợp không được BOD ký duyệt ấn nút Reject để hủy bỏ Payment.
+	
+	Nhập thông tin trên trang:
+		- VAT Invoices: 
+			+ VAT Inv. No.: Số hóa đơn VAT
+			+ Date: Ngày hóa đơn
+			+ Cur.: Loại tiền
+			+ Sub-Total: Tiền trước thuế
+			+ VAT (%): % thuế
+			+ VAT: Tiền thuế
+			+ Total: Tiền sau thuế
+			+ In VND: Tiền VND
+			+ @: Kiểu đơn vị tiền
+			+ Received Date: Ngày nhận hóa đơn
+			+ To Accounting Date: Ngày kế toán
+			+ Returned Date: Ngày hoàn trả
+		- Paid: 
+			+ Date: Ngày trả
+			+ Journal: Kiểu thanh toán
+			+ Period: Thời kỳ kế toán
+			+ Currency: Kiểu tiền
+			+ Bank: Ngân hàng
+			+ Amount: Số tiền
+			+ Ex.Rate: Tỷ giá
+			+ State: Trạng thái
+		Sau bước 4: 
+			Trạng Thái BOD approved sẽ chuyển sang Paid khi 
+			(1) Total Amount = (2) Total VAT = (3) Total Paid 
+
+			.. image:: kdvnstatic/35_IMG_ge.png
+			.. image:: kdvnstatic/36_IMG_ge.png
+
+			Trạng thái của chi phí sau bước 4 sẽ là Paid khi 
+			(1)	Total Amount = (2) Total VAT = (3) Total Paid = (4) Total GE
+
+			.. image:: kdvnstatic/37_IMg_ge.png
+
+			* Ghi chú: 
+			* Sau khi chi phí Completed, và thanh toán ở trạng thái Paid người dùng muốn sửa click vào nút Open để mở và sửa dữ liệu.
+
+			.. image:: kdvnstatic/38_IMG_ge.png
+
+				* Ấn vào nút   để hoàn tất thanh toán.
 
 2.4.3 Quy Trình nhập liệu trường hợp là Allocated Expense
+---------------------------------------------------------
 Trường hợp Allocated Expense là trường hợp dùng để phân bổ chí phí cho trường hợp Prepaid và Fixed Asset.
 2.4.3.1 Thông tin nhập liệu 
+***************************
+	.. image:: kdvnstatic/39_IMG_ge.png
+	.. centered:: Giao diện tạo một chi phí chọn Type là Allocated Expense 
 
-.. image:: kdvnstatic/39_IMG_ge.png
-Giao diện tạo một chi phí chọn Type là Allocated Expense 
-	Expense No.: Hệ thống tự tạo sau khi người dùng chọn Job/G.E
- 	Job/G.E: Hệ thống tự động điền Code năm hiện tại (có thể thay đổi khi lựa chọn lại Job Code.)
-	Exp. /Allocated Date: Hệ thống tự động điền ngày hiện tại (Có thể nhập khác ngày)
-	Section in Charges: Chọn section của người đăng nhập
-	Trang Expense Detail:
-		Scope of Works: Diễn giải chi phí phân bổ
-		Currency: Tỉ giá giao dịch 
-		Job/G.E: Nhập Job Code
-		Budget Code: Nhập Budget Code
-		Allocated Section: Nhập bộ phận phòng ban yêu cầu 
-		Fixed Amount/Prepaid
+	- Expense No.: Hệ thống tự tạo sau khi người dùng chọn Job/G.E
+	- Job/G.E: Hệ thống tự động điền Code năm hiện tại (có thể thay đổi khi lựa chọn lại Job Code.)
+	- Exp. /Allocated Date: Hệ thống tự động điền ngày hiện tại (Có thể nhập khác ngày)
+	- Section in Charges: Chọn section của người đăng nhập
+	- Trang Expense Detail:
+		+ Scope of Works: Diễn giải chi phí phân bổ
+		+ Currency: Tỉ giá giao dịch 
+		+ Job/G.E: Nhập Job Code
+		+ Budget Code: Nhập Budget Code
+		+ Allocated Section: Nhập bộ phận phòng ban yêu cầu 
+		+ Fixed Amount/Prepaid
+
 2.4.3.2 Quy trình nhập liệu 
-Quy trình chi phí
- 
-.. image:: kdvnstatic/
-Để phân bổ chi phí có thể làm theo 2 cách.
+***************************
+	Quy trình chi phí
+	 
+	.. image:: kdvnstatic/1_IMG_ge_process_4.png
+	
+	Để phân bổ chi phí có thể làm theo 2 cách.
 	Cách 1: Là phân bổ luôn trên giao diện Chi phí có Type là Prepaid hoặc Fixed Asset.
 
-.. image:: kdvnstatic/40_IMG_ge.png
-Giao diện hướng dẫn tạo phân bổ chi phí
+	.. image:: kdvnstatic/40_IMG_ge.png
+	.. centered::Giao diện hướng dẫn tạo phân bổ chi phí
+
 	Cách 2: Tạo Chi phí như thông thường và chọn Type là Allocated Expense 
 
-.. image:: kdvnstatic/41_IMG_ge.png
-Giao diện tạo phân bổ chi phí theo cách 2 khi ấn Create trên chi phí
+	.. image:: kdvnstatic/41_IMG_ge.png
+	.. centered::Giao diện tạo phân bổ chi phí theo cách 2 khi ấn Create trên chi phí
 
-Cách 1 đã được hướng dẫn chi tiết trong phần 2.4.1 Nhập chi phí trường hợp Type là Fixed Asset, dưới đây là hướng dẫn cách 2.
+	Cách 1 đã được hướng dẫn chi tiết trong phần 2.4.1 Nhập chi phí trường hợp Type là Fixed Asset, dưới đây là hướng dẫn cách 2.
 
-Bước 1: Tạo phân bổ chi phi, ấn nút Submit để phân bổ chi phí cho Prepaid hay Fixed Asset. 
+	Bước 1: Tạo phân bổ chi phi, ấn nút Submit để phân bổ chi phí cho Prepaid hay Fixed Asset. 
 
-	.. image:: kdvnstatic/42_IMG_ge.png
+		.. image:: kdvnstatic/42_IMG_ge.png
 
-* Ghi chú: 
-	* Sau khi chi phí đã completed người dùng muốn sửa, ấn vào nút Open
+	* Ghi chú: 
+		* Sau khi chi phí đã completed người dùng muốn sửa, ấn vào nút Open
 
-	.. image:: kdvnstatic/43_IMG_Ge.png
-Giao diện sau khi ấn Submit trên General Expense 
+		.. image:: kdvnstatic/43_IMG_Ge.png
+		.. centered::Giao diện sau khi ấn Submit trên General Expense 
 
-Sau khi ấn Open giao diện xuất hiện 2 nút Reject và Close
+	Sau khi ấn Open giao diện xuất hiện 2 nút Reject và Close
 
-.. image:: kdvnstatic/44_IMG_Ge.png
-Giao diện sau khi ấn nút Open trên chi phí
-Ấn nút Close để kết thúc chi phí 
-Ấn nút Reject để đưa về Draft hoặc cancel chi phí
+	.. image:: kdvnstatic/44_IMG_Ge.png
+	.. centered::Giao diện sau khi ấn nút Open trên chi phí
+	
+	Ấn nút Close để kết thúc chi phí 
+	Ấn nút Reject để đưa về Draft hoặc cancel chi phí
+
 2.4.4 Nhập General Expense trường hợp Allocated to là Job & General Expense
+---------------------------------------------------------------------------
 Là những chi phí phát sinh được phân bổ cho Job dự án
 
 
@@ -480,26 +490,28 @@ Là những chi phí phát sinh được phân bổ cho Job dự án
 
 
 2.4.4.1 Thông tin nhập liệu 
+***************************
 
-	Expense No.: Hệ thống tự tạo sau khi người dùng chọn Job/G.E
-	Type: Lựa chọn 1 trong các loại chi phí (Expense, Fixed Asset, Prepaid, Allocated Expense)
-	Allocated To: Chọn Job & General Expense
-	Job/G.E: Hệ thống tự động điền Code năm hiện tại (có thể thay đổi khi lựa chọn lại Job Code)
-	Exp. /Allocated Date: Hệ thống tự động điền ngày hiện tại (Có thể nhập khác ngày)
-	Section in Charges: Hệ thống tự điện bộ phận phòng ban của nhân viên nhập liệu
-	Trang Expense Detail:
-		Supplier: Nhập nhà cung cấp
-		Address: Địa chỉ nhà cung cấp
-		Scope of Works: Diễn giải chi phí
-		Currency: Tỉ giá giao dịch 
-		Advance No.: Nhập Code Advance
-		Job/G.E: Nhập Job Code dự án (có thể nhập Job Code General Expense)
-		Budget Code: Nhập Budget Code 
-		Allocated Section: Nhập bộ phận phòng ban yêu cầu 
-		Amount: Nhập số tiền chi phí 
-	Trang Payment & VAT Invoice: Hiện thi thông tin mua và trả của chi phí
+	- Expense No.: Hệ thống tự tạo sau khi người dùng chọn Job/G.E
+	- Type: Lựa chọn 1 trong các loại chi phí (Expense, Fixed Asset, Prepaid, Allocated Expense)
+	- Allocated To: Chọn Job & General Expense
+	- Job/G.E: Hệ thống tự động điền Code năm hiện tại (có thể thay đổi khi lựa chọn lại Job Code)
+	- Exp. /Allocated Date: Hệ thống tự động điền ngày hiện tại (Có thể nhập khác ngày)
+	- Section in Charges: Hệ thống tự điện bộ phận phòng ban của nhân viên nhập liệu
+	- Trang Expense Detail:
+		+ Supplier: Nhập nhà cung cấp
+		+ Address: Địa chỉ nhà cung cấp
+		+ Scope of Works: Diễn giải chi phí
+		+ Currency: Tỉ giá giao dịch 
+		+ Advance No.: Nhập Code Advance
+		+ Job/G.E: Nhập Job Code dự án (có thể nhập Job Code General Expense)
+		+ Budget Code: Nhập Budget Code 
+		+ Allocated Section: Nhập bộ phận phòng ban yêu cầu 
+		+ Amount: Nhập số tiền chi phí 
+	- Trang Payment & VAT Invoice: Hiện thi thông tin mua và trả của chi phí
 
 2.4.4.2 Quy Trình nhập liệu 
+***************************
 
 Quy trình xử lý theo loại chi phí. Và các loại chi phí đã được trình bày diễn giải trên, người dùng xem trên các phần 2.4.1, 2.4.2 và 2.4.3.
 Dưới đây là các bước chung cho chi phí được phân bổ cho Job dự án.
@@ -507,34 +519,31 @@ Bước 1: Tạo Chi phí gồm thông tin nhập liệu trên, ấn nút Submit
 
 Bước 2: Sau khi được BOD ký duyệt, tiến hành làm Quotation.
 Nhập thông tin đầy đủ cho thanh toán:
-Payment No: Mã thanh toán 
-R.O.P. Date: Ngày thanh toán 
-Due Date: Ngày hết hạn thanh toán
-Expense No.: Mã chi phí
-Payment type: Kiểu thanh toán 
-Supplier: Nhà cung cấp
-Applicant User: Người sử dụng
-Payee: Người trả
-Force Period: Thời kỳ kế toán
-Description: Diễn giải
-Job: Dự án
-Amount: Số tiền
+	- Payment No: Mã thanh toán 
+	- R.O.P. Date: Ngày thanh toán 
+	- Due Date: Ngày hết hạn thanh toán
+	- Expense No.: Mã chi phí
+	- Payment type: Kiểu thanh toán 
+	- Supplier: Nhà cung cấp
+	- Applicant User: Người sử dụng
+	- Payee: Người trả
+	- Force Period: Thời kỳ kế toán
+	- Description: Diễn giải
+	- Job: Dự án
+	- Amount: Số tiền
 Bước 3: Ấn nút Submit trên thanh toán, trạng thái thanh toán chuyển từ Draft sang BOD checking.
 
 	.. image:: kdvnstatic/46_IMG_Ge.png
-
-Giao diện ấn nút Submit
+	.. centered:: Giao diện ấn nút Submit
 
 Sau khi được BOD ký duyệt tiến hành thực hiện mua bán, ấn BOD approved trạng thái chuyển từ BOD checking sang BOD approved, trong trường hợp không được ký duyệt thì ấn nút Reject để hủy bỏ Payment.
 
 	.. image:: kdvnstatic/47_IMG_ge.png
-
-Giao diện sau khi ấn nút Submit
+	.. centered:: Giao diện sau khi ấn nút Submit
 Bước 4: Nhập thông tin VAT 
 
 	.. image:: kdvnstatic/48_IMG_ge.png
-
-Giao diện trang VAT Invoice & Payment
+	.. centered::Giao diện trang VAT Invoice & Payment
 
 Thanh toán tự động chuyển trạng thái từ BOD approved sang Paid khi
 	Payment Amount = VAT Amount = Paid Amount
@@ -544,8 +553,7 @@ Thanh toán tự động chuyển trạng thái từ BOD approved sang Paid khi
 Tìm kiếm được sử dụng ở giao diện Listview, có 2 cách tìm kiếm:
 
 	.. image:: kdvnstatic/49_IMG_ge.png
-
-Giao diện tìm kiếm
+	.. centered:: Giao diện tìm kiếm
 
 
 3.1	Tìm kiếm nhanh
