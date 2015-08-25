@@ -426,9 +426,12 @@ Trong OpenERP có các loại giao diện Tree, Form, Graph, Calendar, Kaban. Hi
 
 2.4.3 Quy Trình nhập liệu trường hợp là Allocated Expense
 ---------------------------------------------------------
+
 Trường hợp Allocated Expense là trường hợp dùng để phân bổ chí phí cho trường hợp Prepaid và Fixed Asset.
+
 2.4.3.1 Thông tin nhập liệu 
 ***************************
+
 	.. image:: kdvnstatic/39_IMG_ge.png
 	.. centered:: Giao diện tạo một chi phí chọn Type là Allocated Expense 
 
@@ -557,6 +560,7 @@ Tìm kiếm được sử dụng ở giao diện Listview, có 2 cách tìm ki�
 
 
 3.1	Tìm kiếm nhanh
+==================
 
 	.. image:: kdvnstatic/50_IMG_ge.png
 
@@ -587,6 +591,7 @@ kết hợp điều kiện tìm kiếm cơ bản
 Tìm kiếm các thanh toán có ngày Expense Date là 25-03-2015. thì sẽ được kết quả tìm kiếm như trên.
 
 3.2 Tìm kiếm chi tiết (Advance Search)
+======================================
 Khi muốn biết cần tìm chính xác chi phí nào có giá trị nào, bạn vào Advance Search. Phần này có hầu hết các trường cần tìm kiếm.
 
 	.. image:: kdvnstatic/55_IMG_Ge.png
