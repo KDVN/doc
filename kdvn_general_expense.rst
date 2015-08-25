@@ -87,6 +87,7 @@ Trong OpenERP có các loại giao diện Tree, Form, Graph, Calendar, Kaban. Hi
 	Closed Date: Ngày kết thúc phân bổ chi phí 
 	Currencies: Đơn vị tỷ giá
 	Trang G.E. Amount Info.: Hiển thị thông tin tổng chi phí trong năm	
+
 	.. image:: kdvnstatic/1_IMG_ge_yearly_amount.png
 	.. centered:: Giao diện dữ liệu trang G.E. Amount Info. trong Yearly G.E Budget 
 		 
@@ -304,8 +305,8 @@ Trong OpenERP có các loại giao diện Tree, Form, Graph, Calendar, Kaban. Hi
 			Và Trạng Thái General Expense Allocated Completed
 
 			*Ghi chú:
-				- khi Payment ở trạng thái Paid người dùng muốn sửa lại thanh toán ấn vào trên giao diện Payment để sửa, sau khi sửa xong ấn   để hoàn thành, ấn vào  để hủy bỏ payment 
-				- Tương tự với General Expense sửa lại thanh toán ấn vào trên giao diện Payment để sửa , sau khi sửa xong ấn   để hoàn thành , ấn vào  để hủy bỏ payment Để mở xem chi tiết phân bổ chi phí ấn vào trên giao diện.
+				
+				.. image:: kdvnstatic/1_IMG_ge_note_1.png
 
 			.. image:: kdvnstatic/29_IMG_ge.png
 			.. centered:: Giao diện hướng dẫn mở phân bổ chi phí
