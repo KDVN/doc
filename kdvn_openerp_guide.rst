@@ -1,3 +1,5 @@
+KINDEN VIETNAM OpenERP guide
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 General Information about new system
 ====================================

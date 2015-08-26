@@ -10,6 +10,9 @@ Contents:
 
 .. toctree::
 	:maxdepth: 2
+	
+	kdvn_openerp_guide
+	kdvn_general_expense
 
 ==================
 
