@@ -16,6 +16,5 @@ Contents:
 
 ==================
 
-* :ref:`modindex`
 * :ref:`search`
 
