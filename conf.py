@@ -284,7 +284,6 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
-=======
 # -*- coding: utf-8 -*-
 #
 # kdvn documentation build configuration file, created by
@@ -574,4 +573,3 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
->>>>>>> 3658ff374b2b4ebe590780314c0663f74a8bee60
