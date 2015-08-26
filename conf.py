@@ -138,6 +138,9 @@ html_theme_path = ['_themes']
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['kdvnstatic']
+
+epub_pre_files = [('index.html', 'Welcome')]
+
 epub_post_files = [('kdvn_openerp_guide.html', 'Openerp Guide'),
                    ('kdvn_general_expense.html', 'General Expense')]
 
@@ -155,11 +158,11 @@ epub_post_files = [('kdvn_openerp_guide.html', 'Openerp Guide'),
 #html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
-#html_sidebars = {}
+html_sidebars = {'index': ['searchbox.html']}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
-#html_additional_pages = {}
+html_additional_pages = {'index': 'index.html'}
 
 # If false, no module index is generated.
 #html_domain_indices = True
