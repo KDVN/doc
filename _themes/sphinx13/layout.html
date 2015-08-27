@@ -33,7 +33,7 @@
         var sbh = sb.height();
         var offset = $('.sphinxsidebar').position()['top'];
         var wintop = win.scrollTop();
-        var winbot = wintop + win.innerHeight();
+        var winbot = wintop + win.innerHeight();sphinxsidebar
         var curtop = sb.position()['top'];
         var curbot = curtop + sbh;
         // does sidebar fit in window?
@@ -57,16 +57,16 @@
 {% endblock %}
 
 {% block rootrellink %}
-        <li><a href="{{ pathto('index') }}">KDVN Home</a>&nbsp;|</li>
-       
+        <li><a href="{{ pathto('index') }}">Home</a>&nbsp;|</li>
+        <li><a href="{{ pathto('contents') }}">Documentation</a> &raquo;</li>
 {% endblock %}
 
 {% block header %}
 <div class="pageheader">
-  <ul>
-    <li><a href="{{ pathto('index') }}">Home</a></li>
-    <li><a href="{{ pathto('kdvn_openerp_guide') }}">Openerp Guide</a></li>
-    <li><a href="{{ pathto('kdvn_general_expense') }}">General Expense</a></li>
+  <ul> 
+      <li><a href="{{ pathto('index') }}">Home</a></li>
+      <li><a href="{{ pathto('contents') }}">Docs</a></li>
+  </ul>
   </ul>
   <div>
     <a href="{{ pathto('index') }}">
