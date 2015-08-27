@@ -426,8 +426,8 @@ html_static_path = ['kdvnstatic']
 
 epub_pre_files = [('index.html', 'Welcome')]
 
-epub_post_files = [('kdvn_openerp_guide.html', 'Openerp Guide'),
-                   ('kdvn_general_expense.html', 'General Expense')]
+#epub_post_files = [('kdvn_openerp_guide.html', 'Openerp Guide'),
+#                   ('kdvn_general_expense.html', 'General Expense')]
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied

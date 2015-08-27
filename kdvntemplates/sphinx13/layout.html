@@ -63,9 +63,15 @@
 
 {% block header %}
 <div class="pageheader">
-	<ul> 
-  		<li><a href="{{ pathto('index') }}">Home</a></li>
-   		<li><a href="{{ pathto('contents') }}">Docs</a></li>
-	</ul>
+  <ul> 
+      <li><a href="{{ pathto('index') }}">Home</a></li>
+      <li><a href="{{ pathto('contents') }}">Docs</a></li>
+  </ul>
+  </ul>
+  <div>
+    <a href="{{ pathto('index') }}">
+      <img src="{{ pathto('_static/sphinxheader.png', 1) }}" alt="SPHINX" />
+    </a>
+  </div>
 </div>
 {% endblock %}
