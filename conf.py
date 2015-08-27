@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #
 # kdvn documentation build configuration file, created by
 # sphinx-quickstart on Wed Aug 19 13:42:14 2015.
@@ -446,9 +445,7 @@ epub_post_files = [('kdvn_openerp_guide.html', 'Openerp Guide'),
 # Custom sidebar templates, maps document names to template names.
 
 html_sidebars = {
-   '**': ['globaltoc.html', 'sourcelink.html', 'searchbox.html'],
-   'using/windows': ['windowssidebar.html', 'searchbox.html'],
-}
+   'index': [ 'searchbox.html']}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
