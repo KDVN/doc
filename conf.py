@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #
 # kdvn documentation build configuration file, created by
 # sphinx-quickstart on Wed Aug 19 13:42:14 2015.
@@ -42,13 +43,13 @@ source_suffix = '.rst'
 #source_encoding = 'utf-8-sig'
 
 # The master toctree document.
-master_doc = 'index'
+master_doc = 'contents'
 
 # General information about the project.
 project = u'kdvn'
 copyright = u'2015, KDERP IT-Dev. Team'
 author = u'KDERP IT-Dev. Team'
-
+epub_guide = (('toc', 'contents.html', u'Table of Contents'),)
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
@@ -92,7 +93,6 @@ exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
-
 # A list of ignored prefixes for module index sorting.
 #modindex_common_prefix = []
 
@@ -223,7 +223,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'kdvn.tex', u'kdvn Documentation',
+  ('contents', 'kdvn.tex', u'kdvn Documentation',
    u'KDERP IT-Dev. Team', 'manual'),
 ]
 
@@ -253,7 +253,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'kdvn', u'kdvn Documentation',
+    ('contents', 'kdvn', u'kdvn Documentation',
      [author], 1)
 ]
 
@@ -267,7 +267,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'kdvn', u'kdvn Documentation',
+  ('contents', 'kdvn', u'kdvn Documentation',
    author, 'kdvn', 'One line description of project.',
    'Miscellaneous'),
 ]
@@ -401,7 +401,7 @@ html_theme = 'sphinx13'
 #html_theme_options = {}
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = ['_themes']
+html_theme_path = ['kdvntemplates']
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
@@ -446,6 +446,7 @@ epub_post_files = [('kdvn_openerp_guide.html', 'Openerp Guide'),
 
 html_sidebars = {
    'index': [ 'searchbox.html']}
+   
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.

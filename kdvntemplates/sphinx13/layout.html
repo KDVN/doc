@@ -57,20 +57,15 @@
 {% endblock %}
 
 {% block rootrellink %}
-        <li><a href="{{ pathto('kdvn_openerp_guide') }}">Sphinx home</a>&nbsp;|</li>
+        <li><a href="{{ pathto('index') }}">Home</a>&nbsp;|</li>
         <li><a href="{{ pathto('contents') }}">Documentation</a> &raquo;</li>
 {% endblock %}
 
 {% block header %}
 <div class="pageheader">
-  <ul>
-    <li><a href="{{ pathto('kdvn_openerp_guide') }}">OpenERP Guide</a></li>
-    <li><a href="{{ pathto('kdvn_vn') }}">General Expense</a></li>
-  </ul>
-  <div>
-    <a href="{{ pathto('kdvn_openerp_guide') }}">
-      <img src="{{ pathto('_static/sphinxheader.png', 1) }}" alt="SPHINX" />
-    </a>
-  </div>
+	<ul> 
+  		<li><a href="{{ pathto('index') }}">Home</a></li>
+   		<li><a href="{{ pathto('contents') }}">Docs</a></li>
+	</ul>
 </div>
 {% endblock %}
