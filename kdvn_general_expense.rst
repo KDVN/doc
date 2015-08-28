@@ -1,10 +1,10 @@
 Hướng dẫn Quản lý chi phí chung
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. Giao Diện Chung
+1. Giao diện chung
 ##################
 
-1.1 Đăng Nhập 
+1.1 Đăng Nhập
 =============
 	.. image:: kdvnstatic/IMG_login.png
 	.. centered:: Màn hình đăng nhập

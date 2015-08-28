@@ -49,7 +49,8 @@ master_doc = 'contents'
 project = u'kdvn'
 copyright = u'2015, KDERP IT-Dev. Team'
 author = u'KDERP IT-Dev. Team'
-epub_guide = (('toc', 'contents.html', u'Muc Luc'),)
+epub_guide = (('toc', 'index.html', u'Muc Luc'),)
+
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
