@@ -49,7 +49,7 @@ master_doc = 'contents'
 project = u'kdvn'
 copyright = u'2015, KDERP IT-Dev. Team'
 author = u'KDERP IT-Dev. Team'
-epub_guide = (('toc', 'contents.html', u'Table of Contents'),)
+epub_guide = (('toc', 'contents.html', u'Muc Luc'),)
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
@@ -122,7 +122,7 @@ html_theme_path = ['kdvntemplates']
 #html_title = None
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-#html_short_title = None
+html_short_title = None
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
@@ -173,7 +173,7 @@ epub_post_files = [('kdvn_openerp_guide.html', 'Openerp Guide'),
 html_show_sourcelink = False
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
-#html_show_sphinx = True
+html_show_sphinx = False
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
 #html_show_copyright = True
@@ -223,7 +223,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('contents', 'kdvn.tex', u'kdvn Documentation',
+  (master_doc, 'kdvn.tex', u'kdvn Documentation',
    u'KDERP IT-Dev. Team', 'manual'),
 ]
 
@@ -253,7 +253,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('contents', 'kdvn', u'kdvn Documentation',
+    (master_doc, 'kdvn', u'kdvn Documentation',
      [author], 1)
 ]
 
@@ -267,7 +267,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('contents', 'kdvn', u'kdvn Documentation',
+  (master_doc, 'kdvn', u'kdvn Documentation',
    author, 'kdvn', 'One line description of project.',
    'Miscellaneous'),
 ]
@@ -424,7 +424,7 @@ html_theme_path = ['kdvntemplates']
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['kdvnstatic']
 
-epub_pre_files = [('index.html', 'Welcome')]
+#epub_pre_files = [('index.html', 'Welcome')]
 
 #epub_post_files = [('kdvn_openerp_guide.html', 'Openerp Guide'),
 #                   ('kdvn_general_expense.html', 'General Expense')]
@@ -444,13 +444,18 @@ epub_pre_files = [('index.html', 'Welcome')]
 
 # Custom sidebar templates, maps document names to template names.
 
+#html_sidebars = {
+#   'index': [ 'searchbox.html']}
 html_sidebars = {
-   'index': [ 'searchbox.html']}
+   'index': [],
+   'kdvn_openerp_guide':['globaltoc.html','searchbox.html'],
+   'kdvn_general_expense':['globaltoc.html','searchbox.html']
    
+}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
-html_additional_pages = {'index': 'index.html'}
+#html_additional_pages = {'index': 'index.html'}
 
 # If false, no module index is generated.
 html_domain_indices = True

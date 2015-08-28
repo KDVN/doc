@@ -1,5 +1,5 @@
-KINDEN VIETNAM OpenERP guide
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Guide Openerp
+^^^^^^^^^^^^^
 
 General Information about new system
 ====================================
@@ -22,7 +22,7 @@ General Information about new system
 		+ Point of sale
 		+ Asset management
 		+ Human resource management
-		+ KINDEN VIETNAM’s OpenERP currently can manage:	Quotations
+		+ KINDEN VIETNAMâ€™s OpenERP currently can manage:	Quotations
 		+ Jobs (Budget control)
 		+ Contracts to clients
 		+ Invoicing to clients and Payment from clients
@@ -45,19 +45,19 @@ General Information about new system
 
 	.. image:: kdvnstatic/IMG_dashboard.png
 
-	You can change your password by clicking to “Preferences”
+	You can change your password by clicking to â€œPreferencesâ€�
 
-	After clicking to “Preferences”, the following screen of “Preferences” will appear 
+	After clicking to â€œPreferencesâ€�, the following screen of â€œPreferencesâ€� will appear 
 
 	.. image:: kdvnstatic/IMG_change_pass.png
 
-	Please input your new password in to “Password” filed, then click “Change Password”. After saving the new password, you are required to logout and re-login by the new password to confirm that it has worked properly. 
+	Please input your new password in to â€œPasswordâ€� filed, then click â€œChange Passwordâ€�. After saving the new password, you are required to logout and re-login by the new password to confirm that it has worked properly. 
 
-	Please input your new password in to “Password” filed, then click “Change Password”. After saving the new password, you are required to logout and re-login by the new password to confirm that it has worked properly. 
+	Please input your new password in to â€œPasswordâ€� filed, then click â€œChange Passwordâ€�. After saving the new password, you are required to logout and re-login by the new password to confirm that it has worked properly. 
 
- Note: 
+ïƒ¸ Note: 
 
-	1.    The system OpenERP of Kinden Vietnam Co., Ltd. contains very important information of company’s business. Therefore, for security purpose, users can only access to the system by company’s registered computers via company’s LAN/Wifi . Users have responsibilities to keep TOP SECRET of their own login passwords to avoid information leak out to any third parties.  
+	1.    The system OpenERP of Kinden Vietnam Co., Ltd. contains very important information of companyâ€™s business. Therefore, for security purpose, users can only access to the system by companyâ€™s registered computers via companyâ€™s LAN/Wifi . Users have responsibilities to keep TOP SECRET of their own login passwords to avoid information leak out to any third parties.  
 
 	2.     The system requires user to re-login if there are no action after every one hour.
 
@@ -115,7 +115,7 @@ Is the view of a list of data in a data area. This is the first screen you see w
 
  .. image:: kdvnstatic/IMG_List_view.png
 
-- If you want to display other records you can search for them or navigate through the whole list using the Previous, Next arrows. The list in the screen shows only the first 80 records.The actual number can be switched by clicking on the number and selecting one of the other limits, but you can’t select any other limit  .
+- If you want to display other records you can search for them or navigate through the whole list using the Previous, Next arrows. The list in the screen shows only the first 80 records.The actual number can be switched by clicking on the number and selecting one of the other limits, but you canâ€™t select any other limit  .
 .. image:: kdvnstatic/IMG_Record_id.png
  
 
@@ -153,14 +153,14 @@ How to search and view your needed information
 **Quotation**
 -------------
 
-	When you choose  “Quotation” (by click Project & Contract, then Quotation), the follow screen will appear.
-Quotation – List view screen
+	When you choose  â€œQuotationâ€� (by click Project & Contract, then Quotation), the follow screen will appear.
+Quotation â€“ List view screen
 
 
 .. image:: kdvnstatic/1_IMG_qoutation.png
 
 
-In the Search Area, user can find the information about the needed quotation or other related information such as Quotation number, Client, Job number, Contract number, … By click the dropdown button, user can filter/group data by many criteria.
+In the Search Area, user can find the information about the needed quotation or other related information such as Quotation number, Client, Job number, Contract number, â€¦ By click the dropdown button, user can filter/group data by many criteria.
 
 Currently, there is one report in Quotation section, user can select a quotation, then choose Report/Form to print the report: Quotation List.
 
@@ -175,7 +175,7 @@ Click on Report/Form and select your type file nedd to print:
 
 The related actions (quick links) are:
 	Contract to client: a quick link to related contract (to client) of that quotation
-	Payment from client: a quick link to above contract’s payment description
+	Payment from client: a quick link to above contractâ€™s payment description
 	Job: a quick link to the job that the quotation belongs to.
 
 
@@ -198,7 +198,7 @@ The Form view of a quotation includes the below content:
 **Job**
 -------
 
-	When you choose  “Job” (by click Project & Contract, then Job), the follow screen will appear.
+	When you choose  â€œJobâ€� (by click Project & Contract, then Job), the follow screen will appear.
 
 Job- List view screen:
 
@@ -233,9 +233,9 @@ The related actions (quick links) are:
 
 .. image:: kdvnstatic/ IMG_job_tree_view.png
 The possible attachments are:
-	● Working Budgets
+	â—� Working Budgets
 After displaying the needed job(s), user can see the detail information of that job(s) by clicking on the job line or clicking Form on the View mode switches. The screen will change to display the form view of that job(s  ). 
- 
+â€ƒ
 .. image:: kdvnstatic/ IMG_job_form_view.png
 
 The Form view of a job includes the below content:
@@ -278,12 +278,12 @@ User can click on a quotation /contract line to quickly open the Form view of th
 **Contract to client**
 ----------------------
 
-When you choose  “Contract” (by click Project & Contract, then Contract), the follow screen will appear.
+When you choose  â€œContractâ€� (by click Project & Contract, then Contract), the follow screen will appear.
 
 User can find the information about contract (to client) by typing the contract number, or narrow the selection by filtering from the other related information such as job number, project name, description, owner name, client name, etc  .
 
 .. image:: kdvnstatic/ 2_IMG_contract_tree_view.png
-User can also access to a specific contract to client from Quotation – Form view interface of the related quotation(s) by clicking on the switches to form view on the top right icon:
+User can also access to a specific contract to client from Quotation â€“ Form view interface of the related quotation(s) by clicking on the switches to form view on the top right icon:
 
 .. image:: kdvnstatic/ 2_IMG_contract_form_view.png
 
@@ -297,7 +297,7 @@ The Form view of a contract includes the below content:
 	- Project Name
 	- Project Location
 	- Description (of work)
-	- Ref No. (Client’s contract/PO No.)
+	- Ref No. (Clientâ€™s contract/PO No.)
 	- Date of registration/start/completion/close
 	- Contract status (completed/uncompleted/ outstanding)
 	- Contract amount
@@ -307,12 +307,12 @@ The Form view of a contract includes the below content:
 .. image:: kdvnstatic/ 2_IMG_contract_cpl.png
 
 -  Information tabs includes: Job info, quotation, progress evaluation & payment, contract summary:
-+ Job Info tab: The job that the chosen contract belong to is displayed in Job info tab. User can click on Job number to directly access to that job’s Form view.
++ Job Info tab: The job that the chosen contract belong to is displayed in Job info tab. User can click on Job number to directly access to that jobâ€™s Form view.
 
 .. image:: kdvnstatic/ 3_IMG_payment_client_job.png
 
 
-+ Quotation tab: display the quotation(s) that belong to the chosen contract as well as the Electrical/Mechanical proportional amount. User can click on quotation number to directly access to that quotation’s Form view
++ Quotation tab: display the quotation(s) that belong to the chosen contract as well as the Electrical/Mechanical proportional amount. User can click on quotation number to directly access to that quotationâ€™s Form view
 
 .. image:: kdvnstatic/ 3_IMG_payment_client_quotation.png
 
@@ -323,16 +323,16 @@ Payment from client: display the Request of Payment number(R.O.P. No.), request 
 
 Request of payment:
 
-§   Draft: The Request of Payment has not been created yet. (automatically drafted based on contract payment condition)
+Â§   Draft: The Request of Payment has not been created yet. (automatically drafted based on contract payment condition)
 
-§  Waiting for payment: The Request of Payment has been submitted to client but has not been paid yet.
+Â§  Waiting for payment: The Request of Payment has been submitted to client but has not been paid yet.
 
-§   Done: The Request of Payment has been submitted to client  and has been paid.
+Â§   Done: The Request of Payment has been submitted to client  and has been paid.
 
  .. image:: kdvnstatic/ 3_IMG_payment_client_progress.png
  
 
-+ Contract Summary tab: display the contracted amount, claimed amount (total amount of all requests of payment issued), received amount (total received amount from client), accounts receivable amount (=claimed amount – received amount), balance amount (= contracted amount – received amount). These amounts are displayed in VND
++ Contract Summary tab: display the contracted amount, claimed amount (total amount of all requests of payment issued), received amount (total received amount from client), accounts receivable amount (=claimed amount â€“ received amount), balance amount (= contracted amount â€“ received amount). These amounts are displayed in VND
 
 .. image:: kdvnstatic/ 3_IMG_payment_client_contract_sumarry.png
 
@@ -361,7 +361,7 @@ The possible attachment  is:
 **Payment from client**
 -----------------------
  
-When you choose  “Payment from Client” (by click Project & Contract, then Payment from Client), the follow screen will appear.
+When you choose  â€œPayment from Clientâ€� (by click Project & Contract, then Payment from Client), the follow screen will appear.
 
 User can find the information about Request of payment & payment situation from client by typing the Request of Payment number (R.O.P. No.), or narrow the selection by filtering from the other related information such as contract number, job number, client name, owner name, etc  .
 
@@ -388,7 +388,7 @@ The Form view of a Request of payment includes the below content:
 .. image:: kdvnstatic/3_IMG_payment_client_claim.png
 
 
-+ VAT invoice & Payment: display VAT invoice issuing information (for admin staff only) and detail of payment from client: Payment date, currency of R.O.P.,amount, client’s paid currency, client’s paid amount (VND), exchange rate, and Bank (in case client pay in USD, the interbank ex.rate on the payment date shall be applied to calculate).  
++ VAT invoice & Payment: display VAT invoice issuing information (for admin staff only) and detail of payment from client: Payment date, currency of R.O.P.,amount, clientâ€™s paid currency, clientâ€™s paid amount (VND), exchange rate, and Bank (in case client pay in USD, the interbank ex.rate on the payment date shall be applied to calculate).  
 
 .. image:: kdvnstatic/3_IMG_payment_client_vat.png
 In Report/Form, user can see the possible Reports:
@@ -410,7 +410,7 @@ The possible Attachments are:
  **Purchase Order (for material & subcontract)**
  -----------------------------------------------
 
-When you choose  “Purchase Order” (by click PO & Expense, then Purchase Order), the follow screen will appear.
+When you choose  â€œPurchase Orderâ€� (by click PO & Expense, then Purchase Order), the follow screen will appear.
 User can find the information about material/subcon orders by typing the Purchase Order number (PO. No.), or narrow the selection by filtering from the other related information such as Job No., PO. price, budget code, supplier name, status of order, etc.
 
 
@@ -429,7 +429,7 @@ The Form view of a Purchase Order includes the below content:
 -       PO type: for Material or labour (subcontract)
 -       Person in charge (procurement staff)
 
--       Order Ref: Supplier’s reference number
+-       Order Ref: Supplierâ€™s reference number
 
 -       PO. Date & Effective Date
 
@@ -440,11 +440,11 @@ The Form view of a Purchase Order includes the below content:
 
 -       Information tabs includes: Purchase Order, Request of payment, Contract to supplier:
 +      	PO Info tab: display information about supplier name/address, scope of work (material name), payment term, currency, ex.rate (effect only for contracts in foreign currency), PO detail (breakdown of quotation & price), and status of PO:
-§  There are six (5) kinds of P.O. status: Draft, Waiting for R.O.A, Waiting for Delivery, Waiting for Payment and P.O. Completed. Please see the Appendix I for the detail description of these status.  
+Â§  There are six (5) kinds of P.O. status: Draft, Waiting for R.O.A, Waiting for Delivery, Waiting for Payment and P.O. Completed. Please see the Appendix I for the detail description of these status.  
 
 .. image:: kdvnstatic/5_IMG_po_info.png
 +      	Payment & VAT Invoices: display the detail of request of payment from supplier for the chosen PO. : Internal payment number, amount & currency, status of payment document .
-§  Status of payment document: There are nine (9) kinds of payment status: Draft, Procurement checking, B.C. checking, B.C. passed, PM checking, BOD checking, BOD approved, Paid, Rejected. Please see the Appendix II  for the detail description of these status. 
+Â§  Status of payment document: There are nine (9) kinds of payment status: Draft, Procurement checking, B.C. checking, B.C. passed, PM checking, BOD checking, BOD approved, Paid, Rejected. Please see the Appendix II  for the detail description of these status. 
 
 .. image:: kdvnstatic/5_IMG_po_vat_view.png
 
@@ -467,21 +467,21 @@ The possible reports/ forms here are:
 - R.O.P Cash Payment - Not Uic (pdf)
 - Settlement Expense (pdf)
 - Summary Supplier Invoice (pdf)
-- Supplier’s Invoice (pdf)
+- Supplierâ€™s Invoice (pdf)
 
 
 .. image:: kdvnstatic/5_IMG_po_report_view.png
 **Supplier Payment**
 --------------------
 
-When you choose  “Supplier Payment” (by click PO & Expense, then Supplier Payment), the follow screen will appear.
+When you choose  â€œSupplier Paymentâ€� (by click PO & Expense, then Supplier Payment), the follow screen will appear.
 User can find the information about supplier payment by typing the Request of Payment No. (internal payment number), or narrow the selection by filtering from the other related information such as PO No., Job No., budget code, supplier name, status of R.O.P., etc.
 
 
 .. image:: kdvnstatic/5_IMG_po_tree_view.png
 
 
-User can also access to a specific Request of payment to supplier – from a Form view interface of the related Purchase Order by clicking on the line at Request of Payment tab.
+User can also access to a specific Request of payment to supplier â€“ from a Form view interface of the related Purchase Order by clicking on the line at Request of Payment tab.
 
 
 .. image:: kdvnstatic/5_IMG_po_form_view.png
@@ -489,7 +489,7 @@ User can also access to a specific Request of payment to supplier – from a For
 
 After displaying the needed Request of payment (to supplier), user can see the detail information of that Request of Payment by clicking on the R.O.P. line or clicking Form on the View mode switches. The screen will change to display the form view of that Request of Payment.
 The Form view of a Payment document to supplier includes the below content:
--       Request of payment No. : Internal control number, started with “IN”
+-       Request of payment No. : Internal control number, started with â€œINâ€�
 -       Date of request
 -       PO. No.: the related Purchase Order
 -       Project: Job No. & Job name
@@ -518,9 +518,9 @@ The Form view of a Payment document to supplier includes the below content:
 **Other expense**
 -----------------
 
-The expenses related to projects (Budget code 4000 ~ 7999) are inputed in “Other expense”  in order to separate with material/labour orders.
+The expenses related to projects (Budget code 4000 ~ 7999) are inputed in â€œOther expenseâ€�  in order to separate with material/labour orders.
  
-When you choose  “Other Expense” (by click PO & Expense, then Other Expense), the follow screen will appear.
+When you choose  â€œOther Expenseâ€� (by click PO & Expense, then Other Expense), the follow screen will appear.
 
 User can find the information about expenses by typing the Expense No. (internal payment number), or narrow the selection by filtering from the other related information such as   Job No., budget code, supplier name, status of expense payment., amount, etc.
 
@@ -534,14 +534,14 @@ After displaying the needed expense, user can see the detail information of that
 
 
 The Form view of an expense includes the below content:
--       Expense No. : Internal control number, started with “EN”
+-       Expense No. : Internal control number, started with â€œENâ€�
 -       Project: Job No. & job name of that expense
 -       Expense date
 -       Information tabs: Other expense, Request of payment
 
 + Other expense tab: display the detail information of the expense such as supplier name/address, description, currency, amount, budget code, jobs, and status of expense.
 
-§  Differ from the status of Purchase Order (for material & subcontract), there are only three (3) simple kinds of expense status:
+Â§  Differ from the status of Purchase Order (for material & subcontract), there are only three (3) simple kinds of expense status:
 Draft: The expense has not been submitted yet
 Waiting for payment:The expense has been submitted and waiting for payment
 Done: The expense has been paid.
@@ -550,7 +550,7 @@ Done: The expense has been paid.
 
 
 + Request of payments tab: display the current procedure of that expense (State) as well as the VAT invoice issued for the payment.
-§  Differ from Payment to supplier (of material & subcontract), there are only three (3) simple kinds of payment status for expense:
+Â§  Differ from Payment to supplier (of material & subcontract), there are only three (3) simple kinds of payment status for expense:
 BOD checking: Payment document has been checking by Budget Control and Admin Director.
 BOD approved: Payment document has been approved by Admin Director.
 Paid: Payment document has been paid. 
@@ -563,7 +563,7 @@ The possible quick link here is:
 Appendices
 ==========
  
-APPENDIX I. - PURCHASE ORDER STATUS –HANOI
+APPENDIX I. - PURCHASE ORDER STATUS â€“HANOI
 
 .. image:: kdvnstatic/IMG_Appnedices.jpg
 
