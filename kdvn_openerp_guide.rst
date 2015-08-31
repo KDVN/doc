@@ -155,7 +155,7 @@ How to search and view your needed information
 Quotation
 =========
 
-	When you choose  “Quotation” (by click Project & Contract, then Quotation), the follow screen will appear.
+	When you choose  "Quotation" (by click Project & Contract, then Quotation), the follow screen will appear.
 Quotation – List view screen
 
 
@@ -472,8 +472,8 @@ The possible reports/ forms here are:
 
 
 .. image:: kdvnstatic/5_IMG_po_report_view.png
-**Supplier Payment**
---------------------
+Supplier Payment
+----------------
 
 When you choose  “Supplier Payment” (by click PO & Expense, then Supplier Payment), the follow screen will appear.
 User can find the information about supplier payment by typing the Request of Payment No. (internal payment number), or narrow the selection by filtering from the other related information such as PO No., Job No., budget code, supplier name, status of R.O.P., etc.
@@ -516,8 +516,8 @@ The Form view of a Payment document to supplier includes the below content:
 .. image:: kdvnstatic/ 4_IMG_ex_vat_payment.png
 
 
-**Other expense**
------------------
+Other expense
+-------------
 
 The expenses related to projects (Budget code 4000 ~ 7999) are inputed in “Other expense”  in order to separate with material/labour orders.
  
